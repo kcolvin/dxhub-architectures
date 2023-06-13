@@ -1,0 +1,2120 @@
+{
+  "id" : 1,
+  "name" : "San Bernardino County Snow Plow Challenge",
+  "description" : "This is a sample architecture model of PP Software System",
+  "lastModifiedDate" : "2023-06-12T15:36:47Z",
+  "properties" : {
+    "structurizr.dsl" : "LyoKICogVGhpcyBpcyBhIHJlZmVyZW5jZSBhcmNoaXRlY3R1cmUgZm9yIHRoZSBTYW4gQmVybmFyZGlubyBTbm93cGxvdyBjaGFsbGVuZ2UgZmFjaWxpdGF0ZWQgYnkgdGhlIENhbCBQb2x5IER4SFVCCiovCgp3b3Jrc3BhY2UgIlNhbiBCZXJuYXJkaW5vIENvdW50eSBTbm93IFBsb3cgQ2hhbGxlbmdlIiAiVGhpcyBpcyBhIHNhbXBsZSBhcmNoaXRlY3R1cmUgbW9kZWwgb2YgUFAgU29mdHdhcmUgU3lzdGVtICIgewohYWRycyAvYXJjaGl0ZWN0dXJlL2RvYy9kZWNpc2lvbnMvCiFkb2NzIC9hcmNoaXRlY3R1cmUvZG9jLwoKCiAgICBtb2RlbCB7CiAgICAKICAgICAgICBwcCA9IHNvZnR3YXJlU3lzdGVtICJTQkMgUGxvdyBQb3J0YWwiICJTYW4gQmVybmFyZGlubyBTbm93cGxvdyBQb3J0YWwiICJQb3dlcmVkIGJ5IEVTUkkgQXJjR0lTIFdpbnRlciBXZWF0aGVyIEZyYW1ld29yayIgewoKICAgICAgICAgICAgb3B0aW1pemF0aW9uID0gY29udGFpbmVyICJPcHRpbWl6YXRpb24iICJTbm93cGxvdyByb3V0ZSBvcHRpbWl6YXRpb24gYW5kIHR1cm4tYnktdHVybiBkaXJlY3Rpb25zInsKICAgICAgICAgICAgICAgIG5ldHdvcmtEYXRhID0gY29tcG9uZW50ICJOZXR3b3JrIERhdGFzZXQiICJSb2FkIG5ldHdvcmsgbW9kZWwgZGF0YSIgIkFyY0dJUyBQcm9mZXNzaW9uYWwiICJEYXRhIFN0b3JlIgogICAgICAgICAgICAgICAgbmV0d29ya0FuYWx5emVyID0gY29tcG9uZW50ICJOZXR3b3JrIEFuYWx5emVyIiAiU29sdmVyIGZvciBvcHRpbWl6ZWQgZGlyZWN0aW9uYWwgcm91dGluZyB0aHJvdWdoIGEgbmV0d29yayIgIkFyY0dJUyBBbmFseXplciIgIkF1dG9tYXRpb24iCiAgICAgICAgICAgICAgICByb3V0ZUxheWVyID0gY29tcG9uZW50ICJSb3V0ZSBMYXllciIgIk1hbmFnZSByb3V0ZSByZWxhdGVkIGluZm9ybWF0aW9uOiBTdG9wcywgUm91dGVzLCBQb2ludCBCYXJyaWVycywgTGluZSBCYXJyaWVycywgUG9seWdvbiBCYXJyaWVycyIgIkFyY0dJUyBQcm9mZXNzaW9uYWwiICJEYXRhIFN0b3JlIgogICAgICAgICAgICAgICAgcm91dGVEaXJlY3Rpb25zID0gY29tcG9uZW50ICJEaXJlY3Rpb24gTGF5ZXIiICJNYW5hZ2Ugcm91dGUgcmVsYXRlZCBpbmZvcm1hdGlvbiIgIkFyY0dJUyBQcm9mZXNzaW9uYWwiICJEYXRhIFN0b3JlIgogICAgICAgICAgICAgICAgbmF2aWdhdG9yID0gY29tcG9uZW50ICJOYXZpZ2F0b3IiICJDdXN0b20gU25vd3Bsb3cgUm91dGUgR3VpZGFuY2UiICJBcmNHSVMgTmF2aWdhdG9yIChpT1MvQW5kcm9pZCkiICJNb2JpbGUgQXBwIgogICAgICAgICAgICB9CgogICAgICAgICAgICBvdXRyZWFjaCA9IGNvbnRhaW5lciAiT3V0cmVhY2giICJXaW50ZXIgV2VhdGhlciBPdXRyZWFjaCJ7CiAgICAgICAgICAgICAgICBzYWZlUm9hZHMgPSBjb21wb25lbnQgIlNhZmUgV2ludGVyIFJvYWRzIiAiU2hhcmUgd2ludGVyIHdlYXRoZXIgcGxhbnMsIHNub3cgcm91dGVzLCBhbmQgcGFya2luZyByZXN0cmljdGlvbnMuIiAiQXJjR0lTIEh1YiBTaXRlIiAiV2ViIEFwcCIKICAgICAgICAgICAgICAgIHJvdXRlU3RhdHVzID0gY29tcG9uZW50ICJSb3V0ZSBTdGF0dXMiICJTaGFyZSBuZWFyIHJlYWwtdGltZSByb2FkIHN0YXR1cyBkdXJpbmcgd2ludGVyIHdlYXRoZXIgZXZlbnRzIiAiTWVkaWEgTWFwIEFwcCIgIldlYiBBcHAiCiAgICAgICAgICAgICAgICByb3V0ZVJlc3RyaWN0aW9ucyA9IGNvbXBvbmVudCAiU25vd3Bsb3cgUm91dGVzIGFuZCBQYXJraW5nIFN0YXR1cyIgIlNoYXJlIHNub3cgcm91dGVzLCByb3V0ZSBwcmlvcml0aWVzLCBhbmQgcGFya2luZyByZXN0cmljdGlvbnMiICJNZWRpYSBNYXAgQXBwIiAiV2ViIEFwcCIKICAgICAgICAgICAgICAgIHNub3dSZXF1ZXN0ID0gY29tcG9uZW50ICJTbm93IFJlcXVlc3RzIiAiU29saWNpdCB3aW50ZXIgd2VhdGhlciBzZXJ2aWNlIHJlcXVlc3RzIGZyb20gdGhlIHB1YmxpYyIgIlNlZUNsaWNrRml4IiAiTW9iaWxlIEFwcCIKICAgICAgICAgICAgICAgIHNub3dSZXF1ZXN0TWFuYWdlciA9IGNvbXBvbmVudCAiU25vdyBSZXF1ZXN0IE1hbmFnZXIiICJUcmlhZ2Ugbm9uLWVtZXJnZW5jeSBzbm93IGFuZCBpY2UgcHJvYmxlbXMgcmVwb3J0ZWQgYnkgdGhlIGdlbmVyYWwgcHVibGljLiIgIlNlZUNsaWNrRml4IiAiV2ViIEFwcCIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgb3BlcmF0aW9ucyA9IGNvbnRhaW5lciAiT3BlcmF0aW9ucyIgIldpbnRlciBXZWF0aGVyIE9wZXJhdGlvbnMiewogICAgICAgICAgICAgICAgb3BzQ2VudGVyID0gY29tcG9uZW50ICJXaW50ZXIgT3BlcmF0aW9ucyBDZW50ZXIiICJQbGFuIG9wZXJhdGlvbnMsIG1hbmFnZSBhdXRob3JpdGF0aXZlIGNvbnRlbnQsIGFuZCB0cmFjayBvcGVyYXRpb25zIGFjdGl2aXR5IHRocm91Z2hvdXQgd2ludGVyIHNlYXNvbiIiQXJjR0lTIEV4cGVyaWVuY2UgQnVpbGRlciIgIldlYiBBcHAiCiAgICAgICAgICAgICAgICBvcHNFdmVudERhc2hib2FyZCA9IGNvbXBvbmVudCAiV2ludGVyIEV2ZW50IERhc2hib2FyZCIgIk1vbml0b3Igc25vdyByZXNwb25zZSBhY3Rpdml0aWVzIGR1cmluZyBvcGVyYXRpb25hbCBwZXJpb2RzIiAiQXJjR0lTIERhc2hib2FyZHMgYXBwIiAiV2ViIEFwcCIgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBvcHNTZWFzb25EYXNoYm9hcmQgPSBjb21wb25lbnQgIldpbnRlciBTZWFzb24gRGFzaGJvYXJkIiAiUmV2aWV3IHJlc3BvbnNlIGFjdGl2aXRpZXMgZm9yIGFueSBldmVudCB0aHJvdWdob3V0IHRoZSB3aW50ZXIgc2Vhc29uIiAiQXJjR0lTIERhc2hib2FyZHMgQXBwIiAiV2ViIEFwcCIgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBzdGF0dXNSZXBvcnQgPSBjb21wb25lbnQgIlN0YXR1cyBSZXBvcnRlciIgIlJlY29yZHMgY3VycmVudCB2ZWhpY2xlIGxvY2F0aW9uLCBzZXJ2aWNlIHN0YXR1cywgb2JzdHJ1Y3Rpb25zLCBwYXJraW5nIHZpb2xhdGlvbnMsIGV0Yy4iICJBcmNHSVMgUXVpY2sgQ2FwdHVyZSAoaU9TL0FuZHJvaWQpIiAiTW9iaWxlIEFwcCIKICAgICAgICAgICAgICAgIG1hdGVyaWFsUmVwb3J0ID0gY29tcG9uZW50ICJNYXRlcmlhbCBSZXBvcnQiICJSZWNvcmRzIG1hdGVyaWFscyB1c2VkIGJ5IGVhY2ggdmVoaWNsZSAoZS5nLiBjaW5kZXIpIiAiQXJjR0lTIFN1cnZleTEyMyIgIk1vYmlsZSBBcHAiICAgICAgICAgICAgICAgIAogICAgICAgICAgICB9CgogICAgICAgICAgICBtYW5hZ2VtZW50ID0gY29udGFpbmVyICJEYXRhIE1hbmFnZW1lbnQiICJNYW5hZ2VkLCBhdXRob3JpdGF0aXZlIGludmVudG9yeSBvZiBzbm93IHJvdXRlcywgc2VydmljZSBhcmVhcywgYW5kIG90aGVyIGVzc2VudGlhbCBvcGVyYXRpb24gZGF0YSJ7CiAgICAgICAgICAgICAgICByb2FkID0gY29tcG9uZW50ICJGb3VuZGF0aW9uYWwgUm9hZCBEYXRhIiAiTWFuYWdlIHJvYWQgcmVsYXRlZCBpbmZvcm1hdGlvbiIgIkFyY0dJUyBQcm9mZXNzaW9uYWwiICJEYXRhIFN0b3JlIgogICAgICAgICAgICAgICAgcGxvd1JvdXRlID0gY29tcG9uZW50ICJTbm93cGxvdyBSb3V0ZSBEYXRhIiAiTWFuYWdlIHJvdXRlIHJlbGF0ZWQgaW5mb3JtYXRpb24iICJBcmNHSVMgUHJvZmVzc2lvbmFsIiAiRGF0YSBTdG9yZSIKICAgICAgICAgICAgICAgIHN0YXR1c01hbmFnZXIgPSBjb21wb25lbnQgIlN0YXR1cyBNYW5hZ2VyIiAiTWFudWFsIHJvdXRlIHN0YXR1cyB1cGRhdGVzIiAiQXJjR0lTIFdlYiBBcHBCdWlsZGVyIiAiV2ViIEFwcCIKICAgICAgICAgICAgICAgIHRlbGVtZXRyeSA9IGNvbXBvbmVudCAiU25vd3Bsb3cgVGVsZW1hdGljIERhdGEiICJSZWFsLXRpbWUgc25vd3Bsb3cgZ2VvbG9jYXRpb24gYW5kIHRlbGVtYXRpYyBkYXRhIiAiQXJjR0lTIFZlbG9jaXR5IiAiRGF0YSBTdG9yZSIKICAgICAgICAgICAgICAgIHBsb3dGbGVldCA9IGNvbXBvbmVudCAiU25vd3Bsb3cgRmxlZXQiICJTbm93cGxvdyBWZWhpY2xlIERhdGEiICJFeGNlbCIgIkRhdGEgU3RvcmUiCiAgICAgICAgICAgICAgICBvcHNOb3RlYm9vayA9IGNvbXBvbmVudCAiV2ludGVyIFdlYXRoZXIgT3BlcmF0aW9ucyBOb3RlYm9vayIgIkF1dG9tYXRlIGRhdGEgbWFuYWdlbWVudCBhbmQgQXJjR0lTIFZlbG9jaXR5IHRhc2tzIiAiQXJjR0lTIFByb2Zlc3Npb25hbCArIEp1cHl0ZXIgKyBQeXRob24iICJBdXRvbWF0aW9uIgogICAgICAgICAgICB9CiAgICAgICAgfQoKIyBFeHRlcm5hbCBFbnRpdGllcwogICAgICAgIAogICAgICAgICMgRXh0ZXJuYWwgQWN0b3JzCiAgICAgICAgc2JjbWFuYWdlbWVudCA9IHBlcnNvbiAiQ291bnR5IE1hbmFnZW1lbnQiICJTYW4gQmVybmFyZGlubyBDb3VudHkgYm9hcmQgYW5kIGdlbmVyYWwgbWFuYWdlbWVudCIKICAgICAgICBvcHNNYW5hZ2VyID0gcGVyc29uICJPcGVyYXRpb25zIE1hbmFnZXIiICJQdWJsaWMgV29ya3Mgb3BlcmF0aW9ucyBtYW5hZ2VyIgogICAgICAgIGRpc3BhdGNoID0gcGVyc29uICJEaXNwYXRjaCIgIlB1YmxpYyBXb3JrcyBzbm93cGxvdyBkaXNwYXRjaCBvcGVyYXRvciIKICAgICAgICBkcml2ZXIgPSBwZXJzb24gIlNub3dwbG93IERyaXZlciIgIlB1YmxpYyBXb3JrcyBzbm93cGxvdyBkcml2ZXIiCiAgICAgICAgZ2lzQWRtaW4gPSBwZXJzb24gIkdJUyBBZG1pbmlzdHJhdG9yIiAiR0lTIHN5c3RlbSBhZG1pbmlzdHJhdG9yIGFuZCByb3V0ZSBhbmFseXN0IgogICAgICAgIGNpdGl6ZW4gPSBwZXJzb24gIkNpdGl6ZW4iICJTQkMgcmVzaWRlbnQvcHJvcGVydHkgb3duZXIiCiAgICAgICAgdmlzaXRvciA9IHBlcnNvbiAiVmlzaXRvciIgIk5vbi1TQkMgcmVzaWRlbnQiCiAgICAgICAgY29udHJhY3RvciA9IHBlcnNvbiAiSW5kZXBlbmRlbnQgQ29udHJhY3RvciIgIkxvY2FsaXplZCBwbG93aW5nIHJlc291cmNlIGZvciBoaXJlIgogICAgICAgIGNocCA9IHBlcnNvbiAiQ0hQIiAiTGF3IGVuZm9yY2VtZW50ICYgdG93aW5nIgogICAgICAgIGVtcyA9IHBlcnNvbiAiRU1TIiAiRW1lcmdlbmN5IE1hbmFnZW1lbnQgU2VydmljZXMiICAgIAogICAgICAgIAogICAgICAgICMgRXh0ZXJuYWwgU2VydmljZXMKICAgICAgICBjYXJ0ID0gc29mdHdhcmVTeXN0ZW0gIkNhcnRlZ3JhcGgiICJXb3JrIG1hbmFnZW1lbnQgaW5mb3JtYXRpb24gc3lzdGVtIiAiRXh0ZXJuYWwgU2VydmljZSIKICAgICAgICBmdHMgPSBzb2Z0d2FyZVN5c3RlbSAiRm9yd2FyZCBUaGlua2luZzogSW50ZWxsaWh1YiIgIlNub3dwbG93IHRlbGVtYXRpY3MgcHJvdmlkZXIiICJFeHRlcm5hbCBTZXJ2aWNlIgogICAgICAgIHNjZiA9IHNvZnR3YXJlU3lzdGVtICJTZWUtQ2xpY2stRml4IiAiQ2l0aXplbiBpc3N1ZSBsb2dnaW5nIiAiRXh0ZXJuYWwgU2VydmljZSIKICAgICAgICBhYWQgPSBzb2Z0d2FyZVN5c3RlbSAiQXp1cmUgQWN0aXZlIERpcmVjdG9yeSIgIkF1dGhlbnRpY2F0aW9uIGFuZCBhdXRob3JpemF0aW9uIHNlY3VyaXR5IHNlcnZpY2UiICJFeHRlcm5hbCBTZXJ2aWNlIgogICAgICAgIG53cyA9IHNvZnR3YXJlU3lzdGVtICJXZWF0aGVyIERhdGEiICJEYXRhIGZyb20gdGhlIE5hdGlvbmFsIFdlYXRoZXIgU2VydmljZSIgIkV4dGVybmFsIFNlcnZpY2UiCiAgICAgICAgY2xtID0gc29mdHdhcmVTeXN0ZW0gIkN5Y2xvbWVkaWEiICJSZWFsaXR5IGNhcHR1cmUgZGF0YSBvZiByb2FkIGFuZCBpbmZyYXN0cnVjdHVyZSBhc3NldHMiICJFeHRlcm5hbCBTZXJ2aWNlIgogICAgICAgIG1hcCA9IHNvZnR3YXJlU3lzdGVtICJXYXplIiAiQXV0aG9yaXRhdGl2ZSB0cmFmZmljIGFuZCByb2FkIGNvbmRpdGlvbiBkYXRhIiAiRXh0ZXJuYWwgU2VydmljZSIKICAgICAgICAKIyBFeHRlcm5hbCBSZWxhdGlvbnMKCiAgICAgICAgI0V4dGVybmFsIEFjdG9ycwogICAgICAgIG9wc1NlYXNvbkRhc2hib2FyZCAtPiBzYmNNYW5hZ2VtZW50ICJXaW50ZXIgb3BlcmF0aW9ucyBwZXJmb3JtYW5jZSBkYXRhIgogICAgICAgIG9wc0V2ZW50RGFzaGJvYXJkIC0+IHNiY01hbmFnZW1lbnQgIldpbnRlciBvcGVyYXRpb25zIHBlcmZvcm1hbmNlIGRhdGEiCiAgICAgICAgZGlzcGF0Y2ggLT4gc25vd1JlcXVlc3RNYW5hZ2VyICJNYW5hZ2VzIHdpbnRlciB3ZWF0aGVyIHJlcXVlc3QgcXVldWUiCiAgICAgICAgb3BzQ2VudGVyIC0+IG9wc01hbmFnZXIgIlNpbmdsZSBwYW5lIG9mIGdsYXNzIGludG8gd2ludGVyIG9wZXJhdGlvbnMiCiAgICAgICAgZHJpdmVyIC0+IHN0YXR1c1JlcG9ydCAiUm91dGUgdXBkYXRlcyAiCiAgICAgICAgZHJpdmVyIC0+IG1hdGVyaWFsUmVwb3J0ICJNYXRlcmlhbCB1c2FnZSIKICAgICAgICBkcml2ZXIgLT4gcm91dGVMYXllciAiQWR2aXNlIG9uIGZlYXR1cmUgY3JlYXRpb24iCiAgICAgICAgbmF2aWdhdG9yIC0+IGRyaXZlciAiVHVybi1ieS10dXJuIGRpcmVjdGlvbnMgZm9yIGFzc2lnbmVkIHJvdXRlIgogICAgICAgIGdpc0FkbWluIC0+IG9wc05vdGVib29rICJNYW5hZ2UgYXV0b21hdGlvbiB0YXNrcyIKICAgICAgICBnaXNBZG1pbiAtPiBwbG93RmxlZXQgIkxvYWQgc25vd3Bsb3cgZmxlZXQgZGF0YSIKICAgICAgICBnaXNBZG1pbiAtPiBzdGF0dXNNYW5hZ2VyICJMb2FkIG1hbnVhbGx5IHJlcG9ydGVkIHJvdXRlIHN0YXR1cyIKICAgICAgICBnaXNBZG1pbiAtPiByb3V0ZUxheWVyICJDcmVhdGUgcm91dGUgZmVhdHVyZXMiCiAgICAgICAgZ2lzQWRtaW4gLT4gbmV0d29ya0FuYWx5emVyICJFeGVjdXRlIG5ldHdvcmsgYW5hbHl6ZXIgdG8gcG9wdWxhdGUgZGlyZWN0aW9uIGxheWVyIgogICAgICAgIG9wc0NlbnRlciAtPiBDSFAgIlBhcmtpbmcgdmlvbGF0aW9ucyIKICAgICAgICBlbXMgLT4gc25vd1JlcXVlc3RNYW5hZ2VyICJFbWVyZ2VuY3kgc25vdyBjbGVhcmluZyByZXF1ZXN0cyIKICAgICAgICByb3V0ZVN0YXR1cyAtPiBFTVMgIlJlYWwgdGltZSByb3V0ZSBzdGF0dXMiCiAgICAgICAgc2FmZVJvYWRzIC0+IHZpc2l0b3IgIlJvYWQgc3RhdHVzIGFuZCBzYWZldHkgaW5mb3JtYXRpb24iCiAgICAgICAgc2FmZVJvYWRzIC0+IGNpdGl6ZW4gIlJvYWQgc3RhdHVzIGFuZCBzYWZldHkgaW5mb3JtYXRpb24iCiAgICAgICAgY2l0aXplbiAtPiBzbm93UmVxdWVzdCAiV2ludGVyIGV2ZW50IHJlcXVlc3RzIgogICAgICAgIHNub3dSZXF1ZXN0TWFuYWdlciAtPiBjb250cmFjdG9yICJTbm93IGNsZWFyaW5nIHJlcXVlc3RzIgoKICAgICAgICAjRXh0ZXJuYWwgU3lzdGVtcwogICAgICAgIGFhZCAtPiBtYW5hZ2VtZW50ICJVc2VyIGF1dGhlbnRpY2F0aW9uIGFuZCBhdXRob3JpemF0aW9uIgogICAgICAgIGZ0cyAtPiB0ZWxlbWV0cnkgICJTbm93cGxvdyBsb2NhdGlvbiBhbmQgdGVsZW1ldHJ5IGRhdGEiCiAgICAgICAgc25vd1JlcXVlc3QgLT4gc2NmICJTbm93IGNsZWFyaW5nIHJlcXVlc3QgZnJvbSBwdWJsaWMiCiAgICAgICAgc2NmIC0+IHNub3dSZXF1ZXN0TWFuYWdlciAiVHJpYWdlZCByZXF1ZXN0IHN0YXR1cyIKICAgICAgICBud3MgLT4gb3BzQ2VudGVyICJDdXJyZW50IHdlYXRoZXIgYW5kIGZvcmVjYXN0IgogICAgICAgIG1hcCAtPiBuZXR3b3JrQW5hbHl6ZXIgIlRyYWZmaWMgYW5kIGluY2lkZW50IGRhdGEiCiAgICAgICAgb3BzQ2VudGVyIC0+IGNhcnQgIldvcmsgbWFuYWdlbWVudCBkYXRhIgogICAgICAgIGNsbSAtPiBvcHNDZW50ZXIgIlJlYWxpdHkgY2FwdHVyZSBkYXRhIgoKI0ludGVybmFsIFJlbGF0aW9ucwoKICAgICAgICAjT3BlcmF0aW9ucwogICAgICAgIG1hdGVyaWFsUmVwb3J0IC0+IG9wc0NlbnRlciAiTWF0ZXJpYWwgZGF0YSIKICAgICAgICBzdGF0dXNSZXBvcnQgLT4gb3BzQ2VudGVyICJSb3V0ZSBzdGF0dXMgZGF0YSIKICAgICAgICBvcHNjZW50ZXIgLT4gb3BzU2Vhc29uRGFzaGJvYXJkICJBZ2dyZWdhdGVkIHNlYXNvbmFsIGRhdGEiCiAgICAgICAgb3BzY2VudGVyIC0+IG9wc0V2ZW50RGFzaGJvYXJkICJJbnRlZ3JhdGVkIGV2ZW50IGRhdGEiCiAgICAgICAgbWFuYWdlbWVudCAtPiBvcHNDZW50ZXIgIlJvdXRlIGFuZCB0ZWxlbWV0cnkgZGF0YSIKICAgICAgICBvcHNDZW50ZXIgLT4gcGxvd1JvdXRlICJSb3V0ZSBzdGF0dXMgYW5kIG1hdGVyaWFsIGRhdGEiCiAgICAgICAgCiAgICAgICAgI091dHJlYWNoCiAgICAgICAgcm91dGVTdGF0dXMgLT4gc2FmZVJvYWRzICJHZW5lcmFsaXplZCByb3V0ZSBzdGF0dXMgZGF0YSIKICAgICAgICByb3V0ZVJlc3RyaWN0aW9ucyAtPiBzYWZlUm9hZHMgIlJvdXRlIGRhdGEgYW5kIHBhcmtpbmcgcmVzdHJpY3Rpb25zIgogICAgICAgIHNub3dSZXF1ZXN0TWFuYWdlciAtPiBvcHNDZW50ZXIgIlByaW9yaXRpemVkIHNub3cgY2xlYXJpbmcgcmVxdWVzdHMiCiAgICAgICAgbWFuYWdlbWVudCAtPiByb3V0ZVN0YXR1cyAiUm91dGUgc3RhdHVzIGRhdGEiCiAgICAgICAgbWFuYWdlbWVudCAtPiByb3V0ZVJlc3RyaWN0aW9ucyAiUm91dGUgZGVmaW5pdGlvbnMgYW5kIHJlc3RyaWN0aW9ucyIKICAgICAgICBzbm93UmVxdWVzdE1hbmFnZXIgLT4gc2FmZVJvYWRzICJTYW5pdGl6ZWQgcmVxdWVzdCBkYXRhIgoKICAgICAgICAjT3B0aW1pemF0aW9uCiAgICAgICAgbmV0d29ya0RhdGEgLT4gcm91dGVMYXllciAiTmV0d29yayBkZWZpbml0aW9uIgogICAgICAgIHJvdXRlTGF5ZXIgLT4gbmV0d29ya0FuYWx5emVyICJOZXR3b3JrIGFuZCBmZWF0dXJlcyBkZWZpbml0aW9ucyIKICAgICAgICBuZXR3b3JrQW5hbHl6ZXIgLT4gcm91dGVEaXJlY3Rpb25zICJPcHRpbWl6ZWQgcm91dGUiCiAgICAgICAgcm91dGVEaXJlY3Rpb25zIC0+IG5hdmlnYXRvciAiVHVybi1ieS10dXJuIGRpcmVjdGlvbnMiCiAgICAgICAgbWFuYWdlbWVudCAtPiBuZXR3b3JrRGF0YSAiUm9hZCBuZXR3b3JrIgogICAgICAgIG1hbmFnZW1lbnQgLT4gcm91dGVMYXllciAiUm91dGUgZGVmaW5paXRpb24iCiAgICAgICAgcm91dGVEaXJlY3Rpb25zIC0+IG1hbmFnZW1lbnQgIkRpcmVjdGlvbiBkYXRhIgoKICAgICAgICAjTWFuYWdlbWVudAogICAgICAgIHBsb3dGbGVldCAtPiBvcHNOb3RlYm9vayAiU25vd3Bsb3cgdmVoaWNsZSBkYXRhIgogICAgICAgIG9wc05vdGVib29rIC0+IHBsb3dGbGVldCAiRW5yaWNoZWQgZGF0YSIKICAgICAgICB0ZWxlbWV0cnkgLT4gb3BzTm90ZWJvb2sgIlNub3dwbG93IHN0cmVhbWluZyBsb2NhdGlvbiBkYXRhIgogICAgICAgIG9wc05vdGVib29rIC0+IHRlbGVtZXRyeSAiRW5yaWNoZWQgZGF0YSIKICAgICAgICBwbG93Um91dGUgLT4gb3BzTm90ZWJvb2sgIlJvdXRlIGRlZmluaXRpb24iCiAgICAgICAgb3BzTm90ZWJvb2sgLT4gcGxvd1JvdXRlICJFbnJpY2hlZCBkYXRhIgogICAgICAgIHJvYWQgLT4gb3BzTm90ZWJvb2sgIlJvYWQgbmV0d29yayIKICAgICAgICBvcHNOb3RlYm9vayAtPiByb2FkICJFbnJpY2hlZCBkYXRhIgogICAgICAgIHN0YXR1c01hbmFnZXIgLT4gcGxvd1JvdXRlICJSb3V0ZSBzdGF0dXMgZGF0YSIKICAgICAgICBvcHRpbWl6YXRpb24gLT4gcGxvd1JvdXRlICAgIlVwZGF0ZWQgcm91dGUgYW5kIGRpcmVjdGlvbiBsYXllcnMiCiAgICB9CgogICAgICAgIHZpZXdzIHsKICAgICAgICAgICAgCiAgICAgICAgc3lzdGVtQ29udGV4dCBwcCAiQ29udGV4dCIgIlBsb3dQb3J0YWwgQ29udGV4dCBEaWFncmFtInsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgICMgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgY29udGFpbmVyIHBwICJDb250YWluZXIiICJQbG93UG9ydGFsIENvbnRhaW5lciBEaWFncmFtIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAjIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCBvdXRyZWFjaCAiT3V0cmVhY2giICJQbG93UG9ydGFsIE91dHJlYWNoIENvbXBvbmVudCBEaWFncmFtIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAjIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCBvcGVyYXRpb25zICJPcGVyYXRpb25zIiAiUGxvd1BvcnRhbCBPcGVyYXRpb25zIENvbXBvbmVudCBEaWFncmFtIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICAjIGF1dG9MYXlvdXQKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgY29tcG9uZW50IG9wdGltaXphdGlvbiAiT3B0aW1pemF0aW9uIiAiUGxvd1BvcnRhbCBPcHRpbWl6YXRpb24gQ29tcG9uZW50IERpYWdyYW0iIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgICMgYXV0b0xheW91dAogICAgICAgIH0KICAgICAgICAKICAgICAgICBjb21wb25lbnQgbWFuYWdlbWVudCAiTWFuYWdlbWVudCIgIlBsb3dQb3J0YWwgTWFuYWdlbWVudCBDb21wb25lbnQgRGlhZ3JhbSIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgIyBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICB0aGVtZSBkZWZhdWx0CgogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIkNhbnZhcyIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjRTRFMUQxCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgIlNvZnR3YXJlIFN5c3RlbSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjQkQ4QjEzCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIGVsZW1lbnQgIkNvbnRhaW5lciIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjQkQ4QjEzCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgIkV4dGVybmFsIFNlcnZpY2UiIHsKICAgICAgICAgICAgICAgIHNoYXBlIENvbXBvbmVudAogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjNTQ1ODVBCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgIlBlcnNvbiIgewogICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMxNTQ3MzQKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgZWxlbWVudCAiQ29tcG9uZW50IiB7CiAgICAgICAgICAgICAgICBzaGFwZSBDb21wb25lbnQKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI0I2Q0NDMgogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJNb2JpbGUgQXBwIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBNb2JpbGVEZXZpY2VMYW5kc2NhcGUKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI0I2Q0NDMgogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICBlbGVtZW50ICJEZXNrdG9wIEFwcCIgewogICAgICAgICAgICAgICAgc2hhcGUgV2luZG93CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICNCNkNDQzIKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgZWxlbWVudCAiV2ViIEFwcCIgewogICAgICAgICAgICAgICAgc2hhcGUgV2ViQnJvd3NlcgogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjQjZDQ0MyCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGEgU3RvcmUiIHsKICAgICAgICAgICAgICAgIHNoYXBlIEN5bGluZGVyCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICNCNkNDQzIKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgZWxlbWVudCAiQXV0b21hdGlvbiIgewogICAgICAgICAgICAgICAgc2hhcGUgUm9ib3QKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI0I2Q0NDMgogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBicmFuZGluZyB7CiAgICAgICAgICAgIGxvZ28gImxvZ28ucG5nIgogICAgICAgIH0KCiAgICB9Cgp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "27",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "sbcmanagement"
+      },
+      "name" : "County Management",
+      "description" : "San Bernardino County board and general management",
+      "location" : "Unspecified"
+    }, {
+      "id" : "28",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "opsmanager"
+      },
+      "name" : "Operations Manager",
+      "description" : "Public Works operations manager",
+      "location" : "Unspecified"
+    }, {
+      "id" : "29",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "dispatch"
+      },
+      "name" : "Dispatch",
+      "description" : "Public Works snowplow dispatch operator",
+      "relationships" : [ {
+        "id" : "48",
+        "tags" : "Relationship",
+        "sourceId" : "29",
+        "destinationId" : "13",
+        "description" : "Manages winter weather request queue"
+      }, {
+        "id" : "49",
+        "sourceId" : "29",
+        "destinationId" : "8",
+        "description" : "Manages winter weather request queue",
+        "linkedRelationshipId" : "48"
+      }, {
+        "id" : "50",
+        "sourceId" : "29",
+        "destinationId" : "1",
+        "description" : "Manages winter weather request queue",
+        "linkedRelationshipId" : "48"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "30",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "driver"
+      },
+      "name" : "Snowplow Driver",
+      "description" : "Public Works snowplow driver",
+      "relationships" : [ {
+        "id" : "54",
+        "tags" : "Relationship",
+        "sourceId" : "30",
+        "destinationId" : "18",
+        "description" : "Route updates"
+      }, {
+        "id" : "55",
+        "sourceId" : "30",
+        "destinationId" : "14",
+        "description" : "Route updates",
+        "linkedRelationshipId" : "54"
+      }, {
+        "id" : "56",
+        "sourceId" : "30",
+        "destinationId" : "1",
+        "description" : "Route updates",
+        "linkedRelationshipId" : "54"
+      }, {
+        "id" : "57",
+        "tags" : "Relationship",
+        "sourceId" : "30",
+        "destinationId" : "19",
+        "description" : "Material usage"
+      }, {
+        "id" : "58",
+        "tags" : "Relationship",
+        "sourceId" : "30",
+        "destinationId" : "5",
+        "description" : "Advise on feature creation"
+      }, {
+        "id" : "59",
+        "sourceId" : "30",
+        "destinationId" : "2",
+        "description" : "Advise on feature creation",
+        "linkedRelationshipId" : "58"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "31",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "gisadmin"
+      },
+      "name" : "GIS Administrator",
+      "description" : "GIS system administrator and route analyst",
+      "relationships" : [ {
+        "id" : "63",
+        "tags" : "Relationship",
+        "sourceId" : "31",
+        "destinationId" : "26",
+        "description" : "Manage automation tasks"
+      }, {
+        "id" : "64",
+        "sourceId" : "31",
+        "destinationId" : "20",
+        "description" : "Manage automation tasks",
+        "linkedRelationshipId" : "63"
+      }, {
+        "id" : "65",
+        "sourceId" : "31",
+        "destinationId" : "1",
+        "description" : "Manage automation tasks",
+        "linkedRelationshipId" : "63"
+      }, {
+        "id" : "66",
+        "tags" : "Relationship",
+        "sourceId" : "31",
+        "destinationId" : "25",
+        "description" : "Load snowplow fleet data"
+      }, {
+        "id" : "67",
+        "tags" : "Relationship",
+        "sourceId" : "31",
+        "destinationId" : "23",
+        "description" : "Load manually reported route status"
+      }, {
+        "id" : "68",
+        "tags" : "Relationship",
+        "sourceId" : "31",
+        "destinationId" : "5",
+        "description" : "Create route features"
+      }, {
+        "id" : "69",
+        "sourceId" : "31",
+        "destinationId" : "2",
+        "description" : "Create route features",
+        "linkedRelationshipId" : "68"
+      }, {
+        "id" : "70",
+        "tags" : "Relationship",
+        "sourceId" : "31",
+        "destinationId" : "4",
+        "description" : "Execute network analyzer to populate direction layer"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "32",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "citizen"
+      },
+      "name" : "Citizen",
+      "description" : "SBC resident/property owner",
+      "relationships" : [ {
+        "id" : "86",
+        "tags" : "Relationship",
+        "sourceId" : "32",
+        "destinationId" : "12",
+        "description" : "Winter event requests"
+      }, {
+        "id" : "87",
+        "sourceId" : "32",
+        "destinationId" : "8",
+        "description" : "Winter event requests",
+        "linkedRelationshipId" : "86"
+      }, {
+        "id" : "88",
+        "sourceId" : "32",
+        "destinationId" : "1",
+        "description" : "Winter event requests",
+        "linkedRelationshipId" : "86"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "33",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "visitor"
+      },
+      "name" : "Visitor",
+      "description" : "Non-SBC resident",
+      "location" : "Unspecified"
+    }, {
+      "id" : "34",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "contractor"
+      },
+      "name" : "Independent Contractor",
+      "description" : "Localized plowing resource for hire",
+      "location" : "Unspecified"
+    }, {
+      "id" : "35",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "chp"
+      },
+      "name" : "CHP",
+      "description" : "Law enforcement & towing",
+      "location" : "Unspecified"
+    }, {
+      "id" : "36",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "ems"
+      },
+      "name" : "EMS",
+      "description" : "Emergency Management Services",
+      "relationships" : [ {
+        "id" : "74",
+        "tags" : "Relationship",
+        "sourceId" : "36",
+        "destinationId" : "13",
+        "description" : "Emergency snow clearing requests"
+      }, {
+        "id" : "75",
+        "sourceId" : "36",
+        "destinationId" : "8",
+        "description" : "Emergency snow clearing requests",
+        "linkedRelationshipId" : "74"
+      }, {
+        "id" : "76",
+        "sourceId" : "36",
+        "destinationId" : "1",
+        "description" : "Emergency snow clearing requests",
+        "linkedRelationshipId" : "74"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "1",
+      "tags" : "Element,Software System,Powered by ESRI ArcGIS Winter Weather Framework",
+      "properties" : {
+        "structurizr.dsl.identifier" : "pp"
+      },
+      "name" : "SBC Plow Portal",
+      "description" : "San Bernardino Snowplow Portal",
+      "relationships" : [ {
+        "id" : "46",
+        "sourceId" : "1",
+        "destinationId" : "27",
+        "description" : "Winter operations performance data",
+        "linkedRelationshipId" : "44"
+      }, {
+        "id" : "53",
+        "sourceId" : "1",
+        "destinationId" : "28",
+        "description" : "Single pane of glass into winter operations",
+        "linkedRelationshipId" : "51"
+      }, {
+        "id" : "62",
+        "sourceId" : "1",
+        "destinationId" : "30",
+        "description" : "Turn-by-turn directions for assigned route",
+        "linkedRelationshipId" : "60"
+      }, {
+        "id" : "73",
+        "sourceId" : "1",
+        "destinationId" : "35",
+        "description" : "Parking violations",
+        "linkedRelationshipId" : "71"
+      }, {
+        "id" : "79",
+        "sourceId" : "1",
+        "destinationId" : "36",
+        "description" : "Real time route status",
+        "linkedRelationshipId" : "77"
+      }, {
+        "id" : "82",
+        "sourceId" : "1",
+        "destinationId" : "33",
+        "description" : "Road status and safety information",
+        "linkedRelationshipId" : "80"
+      }, {
+        "id" : "85",
+        "sourceId" : "1",
+        "destinationId" : "32",
+        "description" : "Road status and safety information",
+        "linkedRelationshipId" : "83"
+      }, {
+        "id" : "91",
+        "sourceId" : "1",
+        "destinationId" : "34",
+        "description" : "Snow clearing requests",
+        "linkedRelationshipId" : "89"
+      }, {
+        "id" : "99",
+        "sourceId" : "1",
+        "destinationId" : "39",
+        "description" : "Snow clearing request from public",
+        "linkedRelationshipId" : "97"
+      }, {
+        "id" : "111",
+        "sourceId" : "1",
+        "destinationId" : "37",
+        "description" : "Work management data",
+        "linkedRelationshipId" : "109"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "14",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "operations"
+        },
+        "name" : "Operations",
+        "description" : "Winter Weather Operations",
+        "relationships" : [ {
+          "id" : "45",
+          "sourceId" : "14",
+          "destinationId" : "27",
+          "description" : "Winter operations performance data",
+          "linkedRelationshipId" : "44"
+        }, {
+          "id" : "52",
+          "sourceId" : "14",
+          "destinationId" : "28",
+          "description" : "Single pane of glass into winter operations",
+          "linkedRelationshipId" : "51"
+        }, {
+          "id" : "72",
+          "sourceId" : "14",
+          "destinationId" : "35",
+          "description" : "Parking violations",
+          "linkedRelationshipId" : "71"
+        }, {
+          "id" : "110",
+          "sourceId" : "14",
+          "destinationId" : "37",
+          "description" : "Work management data",
+          "linkedRelationshipId" : "109"
+        }, {
+          "id" : "123",
+          "sourceId" : "14",
+          "destinationId" : "22",
+          "description" : "Route status and material data",
+          "linkedRelationshipId" : "121"
+        }, {
+          "id" : "124",
+          "sourceId" : "14",
+          "destinationId" : "20",
+          "description" : "Route status and material data",
+          "linkedRelationshipId" : "121"
+        } ],
+        "components" : [ {
+          "id" : "18",
+          "tags" : "Element,Component,Mobile App",
+          "properties" : {
+            "structurizr.dsl.identifier" : "statusreport"
+          },
+          "name" : "Status Reporter",
+          "description" : "Records current vehicle location, service status, obstructions, parking violations, etc.",
+          "relationships" : [ {
+            "id" : "116",
+            "tags" : "Relationship",
+            "sourceId" : "18",
+            "destinationId" : "15",
+            "description" : "Route status data"
+          } ],
+          "technology" : "ArcGIS Quick Capture (iOS/Android)",
+          "documentation" : { }
+        }, {
+          "id" : "16",
+          "tags" : "Element,Component,Web App",
+          "properties" : {
+            "structurizr.dsl.identifier" : "opseventdashboard"
+          },
+          "name" : "Winter Event Dashboard",
+          "description" : "Monitor snow response activities during operational periods",
+          "relationships" : [ {
+            "id" : "47",
+            "tags" : "Relationship",
+            "sourceId" : "16",
+            "destinationId" : "27",
+            "description" : "Winter operations performance data"
+          } ],
+          "technology" : "ArcGIS Dashboards app",
+          "documentation" : { }
+        }, {
+          "id" : "19",
+          "tags" : "Element,Component,Mobile App",
+          "properties" : {
+            "structurizr.dsl.identifier" : "materialreport"
+          },
+          "name" : "Material Report",
+          "description" : "Records materials used by each vehicle (e.g. cinder)",
+          "relationships" : [ {
+            "id" : "115",
+            "tags" : "Relationship",
+            "sourceId" : "19",
+            "destinationId" : "15",
+            "description" : "Material data"
+          } ],
+          "technology" : "ArcGIS Survey123",
+          "documentation" : { }
+        }, {
+          "id" : "15",
+          "tags" : "Element,Component,Web App",
+          "properties" : {
+            "structurizr.dsl.identifier" : "opscenter"
+          },
+          "name" : "Winter Operations Center",
+          "description" : "Plan operations, manage authoritative content, and track operations activity throughout winter season",
+          "relationships" : [ {
+            "id" : "51",
+            "tags" : "Relationship",
+            "sourceId" : "15",
+            "destinationId" : "28",
+            "description" : "Single pane of glass into winter operations"
+          }, {
+            "id" : "71",
+            "tags" : "Relationship",
+            "sourceId" : "15",
+            "destinationId" : "35",
+            "description" : "Parking violations"
+          }, {
+            "id" : "109",
+            "tags" : "Relationship",
+            "sourceId" : "15",
+            "destinationId" : "37",
+            "description" : "Work management data"
+          }, {
+            "id" : "117",
+            "tags" : "Relationship",
+            "sourceId" : "15",
+            "destinationId" : "17",
+            "description" : "Aggregated seasonal data"
+          }, {
+            "id" : "118",
+            "tags" : "Relationship",
+            "sourceId" : "15",
+            "destinationId" : "16",
+            "description" : "Integrated event data"
+          }, {
+            "id" : "121",
+            "tags" : "Relationship",
+            "sourceId" : "15",
+            "destinationId" : "22",
+            "description" : "Route status and material data"
+          }, {
+            "id" : "122",
+            "sourceId" : "15",
+            "destinationId" : "20",
+            "description" : "Route status and material data",
+            "linkedRelationshipId" : "121"
+          } ],
+          "technology" : "ArcGIS Experience Builder",
+          "documentation" : { }
+        }, {
+          "id" : "17",
+          "tags" : "Element,Component,Web App",
+          "properties" : {
+            "structurizr.dsl.identifier" : "opsseasondashboard"
+          },
+          "name" : "Winter Season Dashboard",
+          "description" : "Review response activities for any event throughout the winter season",
+          "relationships" : [ {
+            "id" : "44",
+            "tags" : "Relationship",
+            "sourceId" : "17",
+            "destinationId" : "27",
+            "description" : "Winter operations performance data"
+          } ],
+          "technology" : "ArcGIS Dashboards App",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "2",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "optimization"
+        },
+        "name" : "Optimization",
+        "description" : "Snowplow route optimization and turn-by-turn directions",
+        "relationships" : [ {
+          "id" : "61",
+          "sourceId" : "2",
+          "destinationId" : "30",
+          "description" : "Turn-by-turn directions for assigned route",
+          "linkedRelationshipId" : "60"
+        }, {
+          "id" : "143",
+          "sourceId" : "2",
+          "destinationId" : "20",
+          "description" : "Direction data",
+          "linkedRelationshipId" : "142"
+        }, {
+          "id" : "153",
+          "tags" : "Relationship",
+          "sourceId" : "2",
+          "destinationId" : "22",
+          "description" : "Updated route and direction layers"
+        } ],
+        "components" : [ {
+          "id" : "5",
+          "tags" : "Element,Component,Data Store",
+          "properties" : {
+            "structurizr.dsl.identifier" : "routelayer"
+          },
+          "name" : "Route Layer",
+          "description" : "Manage route related information: Stops, Routes, Point Barriers, Line Barriers, Polygon Barriers",
+          "relationships" : [ {
+            "id" : "136",
+            "tags" : "Relationship",
+            "sourceId" : "5",
+            "destinationId" : "4",
+            "description" : "Network and features definitions"
+          } ],
+          "technology" : "ArcGIS Professional",
+          "documentation" : { }
+        }, {
+          "id" : "7",
+          "tags" : "Element,Component,Mobile App",
+          "properties" : {
+            "structurizr.dsl.identifier" : "navigator"
+          },
+          "name" : "Navigator",
+          "description" : "Custom Snowplow Route Guidance",
+          "relationships" : [ {
+            "id" : "60",
+            "tags" : "Relationship",
+            "sourceId" : "7",
+            "destinationId" : "30",
+            "description" : "Turn-by-turn directions for assigned route"
+          } ],
+          "technology" : "ArcGIS Navigator (iOS/Android)",
+          "documentation" : { }
+        }, {
+          "id" : "4",
+          "tags" : "Element,Component,Automation",
+          "properties" : {
+            "structurizr.dsl.identifier" : "networkanalyzer"
+          },
+          "name" : "Network Analyzer",
+          "description" : "Solver for optimized directional routing through a network",
+          "relationships" : [ {
+            "id" : "137",
+            "tags" : "Relationship",
+            "sourceId" : "4",
+            "destinationId" : "6",
+            "description" : "Optimized route"
+          } ],
+          "technology" : "ArcGIS Analyzer",
+          "documentation" : { }
+        }, {
+          "id" : "3",
+          "tags" : "Element,Component,Data Store",
+          "properties" : {
+            "structurizr.dsl.identifier" : "networkdata"
+          },
+          "name" : "Network Dataset",
+          "description" : "Road network model data",
+          "relationships" : [ {
+            "id" : "135",
+            "tags" : "Relationship",
+            "sourceId" : "3",
+            "destinationId" : "5",
+            "description" : "Network definition"
+          } ],
+          "technology" : "ArcGIS Professional",
+          "documentation" : { }
+        }, {
+          "id" : "6",
+          "tags" : "Element,Component,Data Store",
+          "properties" : {
+            "structurizr.dsl.identifier" : "routedirections"
+          },
+          "name" : "Direction Layer",
+          "description" : "Manage route related information",
+          "relationships" : [ {
+            "id" : "138",
+            "tags" : "Relationship",
+            "sourceId" : "6",
+            "destinationId" : "7",
+            "description" : "Turn-by-turn directions"
+          }, {
+            "id" : "142",
+            "tags" : "Relationship",
+            "sourceId" : "6",
+            "destinationId" : "20",
+            "description" : "Direction data"
+          } ],
+          "technology" : "ArcGIS Professional",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "outreach"
+        },
+        "name" : "Outreach",
+        "description" : "Winter Weather Outreach",
+        "relationships" : [ {
+          "id" : "78",
+          "sourceId" : "8",
+          "destinationId" : "36",
+          "description" : "Real time route status",
+          "linkedRelationshipId" : "77"
+        }, {
+          "id" : "81",
+          "sourceId" : "8",
+          "destinationId" : "33",
+          "description" : "Road status and safety information",
+          "linkedRelationshipId" : "80"
+        }, {
+          "id" : "84",
+          "sourceId" : "8",
+          "destinationId" : "32",
+          "description" : "Road status and safety information",
+          "linkedRelationshipId" : "83"
+        }, {
+          "id" : "90",
+          "sourceId" : "8",
+          "destinationId" : "34",
+          "description" : "Snow clearing requests",
+          "linkedRelationshipId" : "89"
+        }, {
+          "id" : "98",
+          "sourceId" : "8",
+          "destinationId" : "39",
+          "description" : "Snow clearing request from public",
+          "linkedRelationshipId" : "97"
+        }, {
+          "id" : "129",
+          "sourceId" : "8",
+          "destinationId" : "15",
+          "description" : "Prioritized snow clearing requests",
+          "linkedRelationshipId" : "127"
+        }, {
+          "id" : "130",
+          "sourceId" : "8",
+          "destinationId" : "14",
+          "description" : "Prioritized snow clearing requests",
+          "linkedRelationshipId" : "127"
+        } ],
+        "components" : [ {
+          "id" : "11",
+          "tags" : "Element,Component,Web App",
+          "properties" : {
+            "structurizr.dsl.identifier" : "routerestrictions"
+          },
+          "name" : "Snowplow Routes and Parking Status",
+          "description" : "Share snow routes, route priorities, and parking restrictions",
+          "relationships" : [ {
+            "id" : "126",
+            "tags" : "Relationship",
+            "sourceId" : "11",
+            "destinationId" : "9",
+            "description" : "Route data and parking restrictions"
+          } ],
+          "technology" : "Media Map App",
+          "documentation" : { }
+        }, {
+          "id" : "9",
+          "tags" : "Element,Component,Web App",
+          "properties" : {
+            "structurizr.dsl.identifier" : "saferoads"
+          },
+          "name" : "Safe Winter Roads",
+          "description" : "Share winter weather plans, snow routes, and parking restrictions.",
+          "relationships" : [ {
+            "id" : "80",
+            "tags" : "Relationship",
+            "sourceId" : "9",
+            "destinationId" : "33",
+            "description" : "Road status and safety information"
+          }, {
+            "id" : "83",
+            "tags" : "Relationship",
+            "sourceId" : "9",
+            "destinationId" : "32",
+            "description" : "Road status and safety information"
+          } ],
+          "technology" : "ArcGIS Hub Site",
+          "documentation" : { }
+        }, {
+          "id" : "13",
+          "tags" : "Element,Component,Web App",
+          "properties" : {
+            "structurizr.dsl.identifier" : "snowrequestmanager"
+          },
+          "name" : "Snow Request Manager",
+          "description" : "Triage non-emergency snow and ice problems reported by the general public.",
+          "relationships" : [ {
+            "id" : "89",
+            "tags" : "Relationship",
+            "sourceId" : "13",
+            "destinationId" : "34",
+            "description" : "Snow clearing requests"
+          }, {
+            "id" : "127",
+            "tags" : "Relationship",
+            "sourceId" : "13",
+            "destinationId" : "15",
+            "description" : "Prioritized snow clearing requests"
+          }, {
+            "id" : "128",
+            "sourceId" : "13",
+            "destinationId" : "14",
+            "description" : "Prioritized snow clearing requests",
+            "linkedRelationshipId" : "127"
+          }, {
+            "id" : "134",
+            "tags" : "Relationship",
+            "sourceId" : "13",
+            "destinationId" : "9",
+            "description" : "Sanitized request data"
+          } ],
+          "technology" : "SeeClickFix",
+          "documentation" : { }
+        }, {
+          "id" : "12",
+          "tags" : "Element,Component,Mobile App",
+          "properties" : {
+            "structurizr.dsl.identifier" : "snowrequest"
+          },
+          "name" : "Snow Requests",
+          "description" : "Solicit winter weather service requests from the public",
+          "relationships" : [ {
+            "id" : "97",
+            "tags" : "Relationship",
+            "sourceId" : "12",
+            "destinationId" : "39",
+            "description" : "Snow clearing request from public"
+          } ],
+          "technology" : "SeeClickFix",
+          "documentation" : { }
+        }, {
+          "id" : "10",
+          "tags" : "Element,Component,Web App",
+          "properties" : {
+            "structurizr.dsl.identifier" : "routestatus"
+          },
+          "name" : "Route Status",
+          "description" : "Share near real-time road status during winter weather events",
+          "relationships" : [ {
+            "id" : "77",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "36",
+            "description" : "Real time route status"
+          }, {
+            "id" : "125",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "9",
+            "description" : "Generalized route status data"
+          } ],
+          "technology" : "Media Map App",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "20",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "management"
+        },
+        "name" : "Data Management",
+        "description" : "Managed, authoritative inventory of snow routes, service areas, and other essential operation data",
+        "relationships" : [ {
+          "id" : "119",
+          "tags" : "Relationship",
+          "sourceId" : "20",
+          "destinationId" : "15",
+          "description" : "Route and telemetry data"
+        }, {
+          "id" : "120",
+          "sourceId" : "20",
+          "destinationId" : "14",
+          "description" : "Route and telemetry data",
+          "linkedRelationshipId" : "119"
+        }, {
+          "id" : "131",
+          "tags" : "Relationship",
+          "sourceId" : "20",
+          "destinationId" : "10",
+          "description" : "Route status data"
+        }, {
+          "id" : "132",
+          "sourceId" : "20",
+          "destinationId" : "8",
+          "description" : "Route status data",
+          "linkedRelationshipId" : "131"
+        }, {
+          "id" : "133",
+          "tags" : "Relationship",
+          "sourceId" : "20",
+          "destinationId" : "11",
+          "description" : "Route definitions and restrictions"
+        }, {
+          "id" : "139",
+          "tags" : "Relationship",
+          "sourceId" : "20",
+          "destinationId" : "3",
+          "description" : "Road network"
+        }, {
+          "id" : "140",
+          "sourceId" : "20",
+          "destinationId" : "2",
+          "description" : "Road network",
+          "linkedRelationshipId" : "139"
+        }, {
+          "id" : "141",
+          "tags" : "Relationship",
+          "sourceId" : "20",
+          "destinationId" : "5",
+          "description" : "Route definiition"
+        } ],
+        "components" : [ {
+          "id" : "25",
+          "tags" : "Element,Component,Data Store",
+          "properties" : {
+            "structurizr.dsl.identifier" : "plowfleet"
+          },
+          "name" : "Snowplow Fleet",
+          "description" : "Snowplow Vehicle Data",
+          "relationships" : [ {
+            "id" : "144",
+            "tags" : "Relationship",
+            "sourceId" : "25",
+            "destinationId" : "26",
+            "description" : "Snowplow vehicle data"
+          } ],
+          "technology" : "Excel",
+          "documentation" : { }
+        }, {
+          "id" : "21",
+          "tags" : "Element,Component,Data Store",
+          "properties" : {
+            "structurizr.dsl.identifier" : "road"
+          },
+          "name" : "Foundational Road Data",
+          "description" : "Manage road related information",
+          "relationships" : [ {
+            "id" : "150",
+            "tags" : "Relationship",
+            "sourceId" : "21",
+            "destinationId" : "26",
+            "description" : "Road network"
+          } ],
+          "technology" : "ArcGIS Professional",
+          "documentation" : { }
+        }, {
+          "id" : "23",
+          "tags" : "Element,Component,Web App",
+          "properties" : {
+            "structurizr.dsl.identifier" : "statusmanager"
+          },
+          "name" : "Status Manager",
+          "description" : "Manual route status updates",
+          "relationships" : [ {
+            "id" : "152",
+            "tags" : "Relationship",
+            "sourceId" : "23",
+            "destinationId" : "22",
+            "description" : "Route status data"
+          } ],
+          "technology" : "ArcGIS Web AppBuilder",
+          "documentation" : { }
+        }, {
+          "id" : "24",
+          "tags" : "Element,Component,Data Store",
+          "properties" : {
+            "structurizr.dsl.identifier" : "telemetry"
+          },
+          "name" : "Snowplow Telematic Data",
+          "description" : "Real-time snowplow geolocation and telematic data",
+          "relationships" : [ {
+            "id" : "146",
+            "tags" : "Relationship",
+            "sourceId" : "24",
+            "destinationId" : "26",
+            "description" : "Snowplow streaming location data"
+          } ],
+          "technology" : "ArcGIS Velocity",
+          "documentation" : { }
+        }, {
+          "id" : "22",
+          "tags" : "Element,Component,Data Store",
+          "properties" : {
+            "structurizr.dsl.identifier" : "plowroute"
+          },
+          "name" : "Snowplow Route Data",
+          "description" : "Manage route related information",
+          "relationships" : [ {
+            "id" : "148",
+            "tags" : "Relationship",
+            "sourceId" : "22",
+            "destinationId" : "26",
+            "description" : "Route definition"
+          } ],
+          "technology" : "ArcGIS Professional",
+          "documentation" : { }
+        }, {
+          "id" : "26",
+          "tags" : "Element,Component,Automation",
+          "properties" : {
+            "structurizr.dsl.identifier" : "opsnotebook"
+          },
+          "name" : "Winter Weather Operations Notebook",
+          "description" : "Automate data management and ArcGIS Velocity tasks",
+          "relationships" : [ {
+            "id" : "145",
+            "tags" : "Relationship",
+            "sourceId" : "26",
+            "destinationId" : "25",
+            "description" : "Enriched data"
+          }, {
+            "id" : "147",
+            "tags" : "Relationship",
+            "sourceId" : "26",
+            "destinationId" : "24",
+            "description" : "Enriched data"
+          }, {
+            "id" : "149",
+            "tags" : "Relationship",
+            "sourceId" : "26",
+            "destinationId" : "22",
+            "description" : "Enriched data"
+          }, {
+            "id" : "151",
+            "tags" : "Relationship",
+            "sourceId" : "26",
+            "destinationId" : "21",
+            "description" : "Enriched data"
+          } ],
+          "technology" : "ArcGIS Professional + Jupyter + Python",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "37",
+      "tags" : "Element,Software System,External Service",
+      "properties" : {
+        "structurizr.dsl.identifier" : "cart"
+      },
+      "name" : "Cartegraph",
+      "description" : "Work management information system",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "38",
+      "tags" : "Element,Software System,External Service",
+      "properties" : {
+        "structurizr.dsl.identifier" : "fts"
+      },
+      "name" : "Forward Thinking: Intellihub",
+      "description" : "Snowplow telematics provider",
+      "relationships" : [ {
+        "id" : "94",
+        "tags" : "Relationship",
+        "sourceId" : "38",
+        "destinationId" : "24",
+        "description" : "Snowplow location and telemetry data"
+      }, {
+        "id" : "95",
+        "sourceId" : "38",
+        "destinationId" : "20",
+        "description" : "Snowplow location and telemetry data",
+        "linkedRelationshipId" : "94"
+      }, {
+        "id" : "96",
+        "sourceId" : "38",
+        "destinationId" : "1",
+        "description" : "Snowplow location and telemetry data",
+        "linkedRelationshipId" : "94"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "39",
+      "tags" : "Element,Software System,External Service",
+      "properties" : {
+        "structurizr.dsl.identifier" : "scf"
+      },
+      "name" : "See-Click-Fix",
+      "description" : "Citizen issue logging",
+      "relationships" : [ {
+        "id" : "100",
+        "tags" : "Relationship",
+        "sourceId" : "39",
+        "destinationId" : "13",
+        "description" : "Triaged request status"
+      }, {
+        "id" : "101",
+        "sourceId" : "39",
+        "destinationId" : "8",
+        "description" : "Triaged request status",
+        "linkedRelationshipId" : "100"
+      }, {
+        "id" : "102",
+        "sourceId" : "39",
+        "destinationId" : "1",
+        "description" : "Triaged request status",
+        "linkedRelationshipId" : "100"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "40",
+      "tags" : "Element,Software System,External Service",
+      "properties" : {
+        "structurizr.dsl.identifier" : "aad"
+      },
+      "name" : "Azure Active Directory",
+      "description" : "Authentication and authorization security service",
+      "relationships" : [ {
+        "id" : "92",
+        "tags" : "Relationship",
+        "sourceId" : "40",
+        "destinationId" : "20",
+        "description" : "User authentication and authorization"
+      }, {
+        "id" : "93",
+        "sourceId" : "40",
+        "destinationId" : "1",
+        "description" : "User authentication and authorization",
+        "linkedRelationshipId" : "92"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "41",
+      "tags" : "Element,Software System,External Service",
+      "properties" : {
+        "structurizr.dsl.identifier" : "nws"
+      },
+      "name" : "Weather Data",
+      "description" : "Data from the National Weather Service",
+      "relationships" : [ {
+        "id" : "103",
+        "tags" : "Relationship",
+        "sourceId" : "41",
+        "destinationId" : "15",
+        "description" : "Current weather and forecast"
+      }, {
+        "id" : "104",
+        "sourceId" : "41",
+        "destinationId" : "14",
+        "description" : "Current weather and forecast",
+        "linkedRelationshipId" : "103"
+      }, {
+        "id" : "105",
+        "sourceId" : "41",
+        "destinationId" : "1",
+        "description" : "Current weather and forecast",
+        "linkedRelationshipId" : "103"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "42",
+      "tags" : "Element,Software System,External Service",
+      "properties" : {
+        "structurizr.dsl.identifier" : "clm"
+      },
+      "name" : "Cyclomedia",
+      "description" : "Reality capture data of road and infrastructure assets",
+      "relationships" : [ {
+        "id" : "112",
+        "tags" : "Relationship",
+        "sourceId" : "42",
+        "destinationId" : "15",
+        "description" : "Reality capture data"
+      }, {
+        "id" : "113",
+        "sourceId" : "42",
+        "destinationId" : "14",
+        "description" : "Reality capture data",
+        "linkedRelationshipId" : "112"
+      }, {
+        "id" : "114",
+        "sourceId" : "42",
+        "destinationId" : "1",
+        "description" : "Reality capture data",
+        "linkedRelationshipId" : "112"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "43",
+      "tags" : "Element,Software System,External Service",
+      "properties" : {
+        "structurizr.dsl.identifier" : "map"
+      },
+      "name" : "Waze",
+      "description" : "Authoritative traffic and road condition data",
+      "relationships" : [ {
+        "id" : "106",
+        "tags" : "Relationship",
+        "sourceId" : "43",
+        "destinationId" : "4",
+        "description" : "Traffic and incident data"
+      }, {
+        "id" : "107",
+        "sourceId" : "43",
+        "destinationId" : "2",
+        "description" : "Traffic and incident data",
+        "linkedRelationshipId" : "106"
+      }, {
+        "id" : "108",
+        "sourceId" : "43",
+        "destinationId" : "1",
+        "description" : "Traffic and incident data",
+        "linkedRelationshipId" : "106"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : {
+    "sections" : [ {
+      "content" : "# PlowPortal - Improving the winter driving experience in the County of San Bernardino\n\n## PlowPortal\n\n### Intake Form\n\n**Date:** 03/07/2022\n\n**Organization Name:** San Bernardino County – Department of Public Works\n\t\n**Location of Organization:** San Bernardino, CA\n\n**Executive Sponsor:** Shannon Bailey\n\n**Primary Contact:** Shannon Bailey\n\n**Organization’s Mission:**\n>To enhance the quality of life for our diverse communities by developing and maintaining public infrastructure, and providing a variety of municipal services that complements our natural resources and environment.\n\n**Describe the problem or opportunity to be addressed:**\n\n>Snow Plow Route Optimization:\nOpportunity: Develop new snow plow routes that optimize the efficiency of snow plowing operations. Analyze the variables and come up with an optimization tool for Public Works supervisors (e.g. Spreadsheet or GIS program). This trial study would be focused only on the Running Spring/Green Valley Lake area routes.\n>1.\tEvaluation of current routes and recommend route adjustments for optimization.\n>2.\tAutomatically highlight when a different piece of heavy equipment should be used as snow accumulates (equipment speed and performance capabilities to be provided by Public Works)\n>3.\tTrigger points when a second piece of equipment or a route modification should be implemented to maintain the “passable” goal of 8 inches or less in the 10-hour period.\n>4.\tProvide estimated time to clear roads after storm has ended based on snowfall depth per storm.  \n\n\n**What software applications or services are used today to help solve this problem?**\n\n>None. Snow Route Check Sheet is available.\n\n\n**Describe how you might be able to better serve your customers/stakeholders if a solution were implemented:**\n\n>Increase plow intervals on a shift to lessen the accumulated snow on the roadway. Increase efficiency of Snow removal operations until streets have been cleared to their full widths. Optimization of the routes, ability to adjust route/equipment/manpower for variations encountered for each storm, reduced complaints by providing better customer service (faster plow times, less snow accumulation per shift). In addition, the tool will be expanded to other snow areas that Public Works and Public Works - Special Districts maintains.\n\n**What would the key metrics of success be: (optional)**\n\n>Reduce the approximate time to complete “Work After End of Storm” as shown in the Example Table below with different depths of snow.\n\n| Depth of Snow During Storm | Approximate Time To Complete Work AFTER End of Storm |\n|----------------------------|------------------------------------------------------|\n| 0” through 10”             | 24 hours                                             |\n| 10 ½” through 20”          | 36 hours                                             |\n| 20 ½” through 30”          | 48 hours                                             |\n| 30 ½” through 40”          | 72 hours                                             |\n| 40 ½” and up               | 96 hours                                             |  \n\n\n**During our engagement, do you expect to provide data that is required to be protected from public view?** \n\n>County can provide GIS maps with current routes, spreadsheet with existing route mileage, type of equipment available for the routes, typical plowing speeds, and current staffing levels. Full access to historic data, road yard supervisors and regional superintendents, and public service database reports on complaints.\n>\n>- [County Snow Resources and Program Overview](https://snowinfo.sbcounty.gov/)\n>- [County Snowplow Roads GIS Maps](https://sbcountydpw.maps.arcgis.com/apps/OnePane/basicviewer/index.html?appid=14153b8ad79c4a79be1edc33ea909670) (Click on “Bookmarks” in the green toolbar on the site and you can switch to the Running Springs area, which will also show the Green Valley Lake area.)  \n\n**If so, how do you plan to cleanse the data?**\n\n>NA\n\n**Please provide contact information for the individual responsible for data information and access.**\n\n>Santa Stratton | Santa.Stratton@dpw.sbcounty.gov | (909) 387-8040\n\n\n**Who are your customers/stakeholders – both intermediary (ex. Faculty) and end users (ex. Students):**\n\n>Customers – Constituents of San Bernardino County, Mountain residents  \n>End User – Department of Public Works Supervisors & Staff\n\n### Press Release\n\n***\n\n*This document is a ‘fictitious press release’ envisioning the launch of a new product or service at a future date. This document is not intended to be a real press release and won’t be published without the review and input of the challenge sponsor, herein San Bernardino County.*\n\n***\n\n***San Bernardino County Launches PLOWPORTAL to Enhance Citizen Mobility and Staff Efficiency***\n\n*San Bernardino, CA – November 1, 2022*\n\n#### **Summary** \n\nSan Bernardino Mountain News| CALIFORNIA - Today, San Bernardino County (SBC) went live with a new service to improve winter driving conditions and specifically snow plowing activities in the San Bernardino Mountains. When fully operational the service, accessed through https://plowportal.sbcounty.gov, will allow citizens, Emergency Medical Services (EMS), public safety and county personnel to view and report on numerous aspects of mountain road conditions.  The new technology integrates with familiar technologies including mobile map applications, the County’s GIS (Geographic Information System) and sends alerts though email and text message services.  In addition to better road conditions communications, it will improve the efficiency of snowplow activities though digitized and optimized routes, road closures, and snowplow equipment status, benefits for both county personnel and citizens.  \n\nThe portal intends to provide near real-time status of snow depth, blocked roads, and snowplow route completion / road plowing status.  The intent is to allow citizens and public service organizations to plan for an ingress/egress trip to residential and commercial properties throughout the mountain communities during winter storms.  \n\nIn addition to increasing snow removal operational efficiency, it also answers the question, “Can I get to my destination?”\n\n#### **Problem**\n\nSnowplow personnel and equipment are limited resources in the SBC mountain communities when winter storms arrive. While snowplow operators have developed comprehensive routes and workflow processes over many years, those routes currently exist as static paper-based assets, resulting in the status of plowed road conditions that are hidden to both mountain residents and public service personnel (e.g., EMS, police, fire, utility companies).  During a storm event, blocked roads can occur from downed trees/utilities or vehicles which impede staff and the public.  Vehicle blockage occurs when citizens or mountain visitors leave their vehicles encroaching into or directly upon roads that need to be cleared.  The common causes for vehicles blocking the roadways are ill-equipped vehicles (e.g. no chains, no four-wheel drive, lack of tire tread, dead battery, etc.) and a lack of preparation for an incoming storm which includes a lack of knowledge of mountain parking guidelines and regulations from October – April each year.  Road blockages cause road snow clearing delays or inability to fully clear a road.  Once the road blockage is cleared, plows must backtrack which causes further lost time on subsequent roads. Situations like this cause additional time and resources to complete snow removal operations and many frequent citizen concerns lodged with San Bernardino County Public Works.  \n\nIn addition to the interruption of snow clearing operations from road impediments, the County has experienced high turnover of both experienced and recently trained snowplow operators and struggles to bring new hires up to speed on both efficient snowplow operations and the complex routes they need to drive.  Sometimes new hires are onboarded only weeks before they need to perform their route, leading to concerns from the public about their ability to provide a consistent, high level of service.\n\n#### **Approach** \n\n***PLOWPORTAL*** is SBC’s approach to the integration of new technologies and existing information systems into a real time, public-facing Web application and data-rich staff-facing portal that will make road conditions and snowplow route progress visible, so citizens can plan their movements to and from their residence and work locations during winter storm days.  Additionally, the staff-facing portal includes many tools: digitized routes, digitized snowplow route logs, and digitized snowplow maintenance logs, on-board video/photo feeds, among others.  Video/photo based training will provide excellent content for inexperienced snowplow operators to learn quickly, leveraging turn-by-turn guidance during both training and actual operations.  The vision for ***PLOWPORTAL*** is a common Web application with enhanced information specific to snowplowing operations.  \n\nAt the highest level PLOWPORTAL collects and integrates data from several sources:\n- Digital route information that can be dynamically adjusted based on current conditions\n- Snowplow on-board telematics including:\n    - Live logs of current location, route covered, direction and speed\n    - Equipment status: plowing/not plowing\n- Predictive and live route information such as:\n    - Expected time and distance until route completion\n    - Current location of blocked or closed roadways\n    - Realtime reporting of issues and events only visible to operators and supervisors\n- Snowplow operators training resources: \n    - Video/photo documented routes \n    - Digital route paths \n    - Curated route paths from plow operators and supervisors showing obstacles and route considerations utilizing Cyclomedia data (360 degree/three-dimensional LiDAR imagery for generating realistic snowplow route conditions in operator virtual training applications)\n- ESRI ArcGIS system storing and displaying many aspects of the county’s operations\n- California Highway Patrol, EMS, Sheriff, Fire\n- National Weather Service\n- Cartegraph: SBC’s asset and maintenance system, work order and public concern portal\n- Road Services: Caltrans, CHP Freeway Service Patrol, etc.\n- Google Maps traffic data, Waze traffic data\n- Capella: Synthetic Aperture Radar imaging\n\n### **Customer Testimonials** \n\n#### **Citizen #1**\n>During past storms, my workdays were filled with a worried eye on the snow accumulation outside my office window. Is my street plowed? Did my kids make it home from school? Will I make it home in time for dinner? Now, with the ***PLOWPORTAL*** Web application, I can follow which roads have been cleared and plan the path I should follow to get home. Stormy days are no longer such a worry, and I can give my full attention to doing my job.\n\n\n#### **Citizen #2**\n\n>I am an elderly resident and unable to clear snow from my driveway. I rely on Alex, an independent contractor to clear my driveway and berm. Instead of waiting hours or days to coordinate plowing efforts between SBC’s plowing and Alex, the ***PLOWPORTAL*** webapp allows Alex to plan his neighborhood plowing so my drive is plowed clear after the county’s plows have come by. I no longer feel trapped or like a second-class citizen. I feel safe.\n\n#### **Citizen #3**\n\n>Snowplowing by the county this year was a pleasant and helpful experience. Because I was notified prior to a weather event and could track estimated snowplowing times on my street via the internet, I was able to move our vehicles as were my neighbors, to allow for a quality and effective plowing job. This, in turn, provided me with mobility I’ve not experience in the past.\n\n#### **Citizen #4**\n\n>By being able to see when my street was plowed helps me plan for my trips into town. When the storms continue to drop snow, I can ensure I have all the supplies I need based on when I can safely leave and return to my house.\n\n#### **Citizen #5**\n\n>The change over the past year has been remarkable. My road is plowed as smooth as a putting green after every storm, always perfect, plus I can just log into the website to see the current status of road clearing in the parts of the county I need to travel”, said Pam Snowglobe of Lake Arrowhead.\n\n### **Public Works Testimonials**\n\n#### **Supervisor #1**\n\n>In the past, snowplow location was available by logging into our fleet system and road status was only available at the end of a shift or when the driver phoned in an issue. Now, we can track real time status and route completion percentage in one place.  This helps my planning for the next shift, my overall high-level view of the current plowing situation in the County and any shortcomings that need to be addressed.\n\n#### **Supervisor #2**\n\n>The new computer based training helped the trainee so much this winter season. The trainee became a more efficient and confident operator, achieving maximum width with minimal passes and clean intersections. Constituents were completely satisfied. Due to the confidence and performance of the operator, I was able to free up my time to oversee other pressing issues.\n\n#### **Trainee #1**\n\n>As a trainee, I was overwhelmed by the thought of snowplowing in the mountains since I live down in San Bernardino. I decided to try being a snowplow operator because I understand the positive impact this has on the public.  My first training session started me on easy, flat streets and I drove the path with a supervisor, trying to remember exactly where to go.  I was able to use the PLOWPORTAL to virtually drive my paths and become mentally prepared, and then utilize the navigation tool in my plow to ensure no streets were missed. \n\n#### **Leadership #1**\n\n>Since implementing the more efficient training program, the employees & residents have a better outlook on snow removal.\n\n#### **Leadership #2**\n\n>We have relied on the same routes for decades. With PLOWPORTAL we were able to make adjustments to our routes that improved efficiency and helped to maintain our plowing goals.\n\nTo learn more about the ***PLOWPORTAL*** and the open-source technology platform visit https://plowportal.sbcounty.gov \n \n### FAQ\n\n#### **Public:**\n\n#### Q: Will PLOWPORTAL be free to use?\n\n>A:\n\n#### Q: Do I need an account?\n\n>A:\n\n#### Q: What is the delay of the information I’m viewing?\n\n>A:\n\n#### Q: Is PLOWTPORTAL easy to use?\n\n>A: \n\n#### **County Leadership:**\n\n#### Q: How much will the system cost?\n\n>A:\n\n#### Q: What are the benefits to the county?\n\n>A:\n\n#### Q: How does the system work?\n\n>A:\n\n#### Q: What existing systems does this replace?\n\n>A:\n\n#### **Public Works:**\n\n#### Q: How should my department use PLOWPORTAL?\n\n>A:   \n\n#### Q: How will PLOWPORTAL help me do my job better?\n\n>A:\n\n### VISUALS\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "format" : "Markdown",
+      "filename" : "PlowPortal.md",
+      "order" : 1,
+      "title" : ""
+    } ],
+    "decisions" : [ {
+      "content" : "# 11. See Click Fix\n\nDate: 2023-4-25\n\n## Status\n\nAccepted\n\n## Context\n\nInstead of using a web form with SB Access Online or call 909-884-4056, SeeClickFix is a great alternative for facilitating citizen engagement with communication between San Bernardino County and residents. The platform allows citizens to submit service requests to report any issues from their smartphone or computer (e.g. a fallen tree that could impeded a driver from plowing their routes). \n\n## Decision\n\nTo empower citizens, SBC SeeClickFix is expanded with 'Conversations'. It prevents web forms and the influx of phone calls, allowing public works employees to dedicate their time to other tasks.\n\n## Consequences\n\nSeeClickFix is well established in SBC and should be re-used to the fullest extent - unifying Citizen Relationship Management on a common platform in SBC. SeeClickFix is a fully managed SaaS offering with broad integrations with other digital civic solutions. Cost and time to deploy are expected to be negligible given SBC is an existing Civic Plus customer and SeeClickFix has already been made available to citizens through the SBC Department of Public Works.",
+      "format" : "Markdown",
+      "id" : "11",
+      "title" : "See Click Fix",
+      "date" : "2023-04-25T00:00:00Z",
+      "status" : "Accepted"
+    }, {
+      "content" : "# 12. Forward Thinking Telemetry\n\nDate: 2023-4-25\n\n## Status\n\nAccepted\n\n## Context\n\nForward Thinking: Intellihub is a real-time fleet management software where you can mange vehicle and driver activity. The equipment is already a sunk cost since the plows have the instrumentation for telematic systems such as the open API. By sticking with forward thinking, San Bernardino County can invest in the system.\n\n## Decision\n\nThe telemetry being used tracks equipment instead of the snowplow drivers.\n\n## Consequences\n\nPersonal data concerns may lead to push back for snowplow drivers. As a public asset for a union, they may be upset that the equipment is tracked despite being a county asset. Although there is a public facing component regarding snowplow work, there must be a time delay regarding the publishing of snowplow route information to keep drivers safe.\n",
+      "format" : "Markdown",
+      "id" : "12",
+      "title" : "Forward Thinking Telemetry",
+      "date" : "2023-04-25T00:00:00Z",
+      "status" : "Accepted"
+    }, {
+      "content" : "# 1. Record architecture decisions\n\nDate: 2023-04-23\n\n## Status\n\nAccepted\n\n## Context\n\nWe need to record the architectural decisions made on this project.\n\n## Decision\n\nWe will use Architecture Decision Records, as [described by Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions).\n\n## Consequences\n\nSee Michael Nygard's article, linked above. For a lightweight ADR toolset, see Nat Pryce's [adr-tools](https://github.com/npryce/adr-tools). \n",
+      "format" : "Markdown",
+      "id" : "1",
+      "title" : "Record architecture decisions",
+      "date" : "2023-04-23T00:00:00Z",
+      "status" : "Accepted"
+    }, {
+      "content" : "# 2. Velocity\n\nDate: 2023-4-25\n\n## Status\n\nAccepted\n\nRelated to [12. Forward Thinking Telemetry](#12)\nRelated to [9. National Weather Service](#9)\n\n## Context\n\nArcGIS Velocity provides a new, cloud-native, real-time data ingestion and analysis capability which provides information for the Snow Plow Portal. It is used to locate and track snowplow vehicles to identify which roads have been serviced.\n\n## Decision\n\nDxHub/San Bernardino County decided to implement ArcGIS Velocity for the first time in the County.\n\n## Consequences\n\nIn regards to the Forward Thinking Systems (snow plow vehicle GPS feed), a token needed to access the API feed. However, the token will expire on April 18, 2024 and will be needed to updated every year. With ArcGIS Velocity's real time data, this information should not be made available to the public. Giving citizens this information can endanger snowplow drivers and create hinderances on their job.\n",
+      "format" : "Markdown",
+      "id" : "2",
+      "title" : "Velocity",
+      "date" : "2023-04-25T00:00:00Z",
+      "status" : "Accepted",
+      "links" : [ {
+        "id" : "9",
+        "description" : "Related to"
+      }, {
+        "id" : "12",
+        "description" : "Related to"
+      } ]
+    }, {
+      "content" : "# 3. Network Analyzer\n\nDate: 2023-4-25\n\n## Status\n\nAccepted\n\nSupported by [4. Manual Digitization of Route Definitions](#4)\nSupported by [7. Waze](#7)\n\n## Context\n\nTo generate snowplow routes for a driver to follow a Network Dataset is needed. The Network Dataset defines each road segment, its length and intersections between road segments. To obtain a Network Dataset, San Bernardino County can either develop their own in ArcGIS or purchase a validated dataset from a 3rd party. With the route information published in ArcGIS, there was a needed tool to create a route (turn-by-turn directions) to be used by snowplow drivers.\n\n## Decision\n\nDxHub decided to use the ArcGIS Network Analyst tool to define routes. This is a mature tool, works reliably and allows publication of routes to the ArcGIS portal. \n\n## Consequences\n\nWhile Network Analyst can solve for human-defined routes, it is unable to optimize routes based on a criterion like shortest path, least time or most people served. These types of optimizations are currently not available in Network Analyst.\n",
+      "format" : "Markdown",
+      "id" : "3",
+      "title" : "Network Analyzer",
+      "date" : "2023-04-25T00:00:00Z",
+      "status" : "Accepted",
+      "links" : [ {
+        "id" : "4",
+        "description" : "Supported by"
+      }, {
+        "id" : "7",
+        "description" : "Supported by"
+      } ]
+    }, {
+      "content" : "# 4. Manual Digitization of Route Definitions\n\nDate: 2023-4-25\n\n## Status\n\nAccepted\n\n## Context\n\nOnce a Network Dataset and route layer are defined in ArcGIS, the final step in route digitization is to define the route or path through the street network. Many options to capture routes were investigated including snow plow GPS tracking, using the ESRI QuickCapture app and translating paper route documentation. None of these worked to an adequate level to capture accurate routes. The true turn-by-turn routes exist only in the minds of the snow plow drivers.  They know every turn required to plow both sides all required streets while minimizing left turns, narrow throughways and dead end streets.\n\n## Decision\n\nDxHub and SBC decided to document existing routes with a GIS analyst and a snowplow route driver working together to select each turn in the route using the Network Analyst stop geometry creation tool. The manual documentation allowed for experienced drivers to give input on tricks and turns they learned during the time spent in their role. With the snowplow drivers' help, it provided route definition in ArcGIS Network Analyst. Anyone with the proper credentials will be able to run ArcGIS Navigator and see the published directions.\n\n## Consequences\n\nDocumenting routes in this manner is time consuming for the analyst and snow plow driver, taking as much as 60 minutes for each route. Eight routes were digitized for the Running Springs prototype area, taking about 8 hours total.\n",
+      "format" : "Markdown",
+      "id" : "4",
+      "title" : "Manual Digitization of Route Definitions",
+      "date" : "2023-04-25T00:00:00Z",
+      "status" : "Accepted"
+    }, {
+      "content" : "# 5. ArcGIS Navigator\n\nDate: 2023-4-25\n\n## Status\n\nAccepted\n\nSupported by [3. Network Analyzer](#3)\nSupported by [8. Cyclomedia](#8)\n\n## Context\n\nDigitized turn-by-turn route directions for snow plow drivers are created in the Network Analyst tool inside ArcGIS. Once published, the directions need to be presented in a mobile app to the drivers at the wheel for both training and operational scenarios. \n\n## Decision\n\nArcGIS Navigator was selected as the mobile app as its source for routes is the ArcGIS Portal. As soon as a route is solved and exported in the Network Analyst, it becomes available to ArcGIS Navigator. \n\n## Consequences\n\nUpdates or changes to routes can be quickly and easily distributed by GIS analysts. Additionally, if there is an obstacle (e.g. parked car, fallen tree), an analyst can rapidly define a line barrier to represent an obstacle, then solve, then publish the route once again. With a network connection, ArcGIS Navigator can receive the update and display the updated route on the fly.\n",
+      "format" : "Markdown",
+      "id" : "5",
+      "title" : "ArcGIS Navigator",
+      "date" : "2023-04-25T00:00:00Z",
+      "status" : "Accepted",
+      "links" : [ {
+        "id" : "3",
+        "description" : "Supported by"
+      }, {
+        "id" : "8",
+        "description" : "Supported by"
+      } ]
+    }, {
+      "content" : "# 6. Cartegraph\n\nDate: 2023-4-25\n\n## Status\n\nAccepted\n\nRelated to [11. See Click Fix](#11)\n\n## Context\n\nCartegraph is a software that helps with the work order management of San Bernardino's snowplows. It was already in use by San Bernardino for managing physical assets (roadways, stop signs) and maintenance operations (billing and budgeting). \n\n## Decision\n\nThe decision was to continue using the software to include snowplow routes as an additional asset in Cartegraph. It made logical sense to put snowplow routes in there since it already included other San Bernardino County assets. Having the snowplow routes would help snow plows to get around the city and it was the perfect opportunity to integrate the information with Cartegraph.\n\n## Consequences\n\nThe addition of snowplow routes scanned and pushed data into cartography led to more load for the system. For those at SBC, there may be push back with additional information put in Cartegraph as it is more work to manage as people may not be properly trained or may not have the time to manage the software.",
+      "format" : "Markdown",
+      "id" : "6",
+      "title" : "Cartegraph",
+      "date" : "2023-04-25T00:00:00Z",
+      "status" : "Accepted",
+      "links" : [ {
+        "id" : "11",
+        "description" : "Related to"
+      } ]
+    }, {
+      "content" : "# 7. Waze\n\nDate: 2023-4-25\n\n## Status\n\nAccepted\n\n## Context\n\nSan Bernardino County had a subscription to Waze for crowd source traffic updates.\n\n## Decision\n\nThe decision was to continue using Waze as the subscription had already been in use. Using Waze gave snowplow drivers more resources to understand traffic environment when deploying snow plows.\n\n## Consequences\n\nThere may be other alternatives for traffic information.",
+      "format" : "Markdown",
+      "id" : "7",
+      "title" : "Waze",
+      "date" : "2023-04-25T00:00:00Z",
+      "status" : "Accepted"
+    }, {
+      "content" : "# 8. Cyclomedia\n\nDate: 2023-4-25\n\n## Status\n\nAccepted\n\n## Context\n\nCyclomedia captures geospatial data which has street level imagery with the use of GPS technology. Using Cyclomedia could help with snow plow removal routes with street level imagery, measure snow depth on streets (***NOT SURE IF THIS HAD CHANGED), and utilizing historical archive of street imagery.\n\n## Decision\n\nUsing Cartegraph could help with snowplow routes by taking images and overlaying it on the portal. The imagery would provide information to plan snow plow routes, condition of San Bernardino County's infrastructure assets, and snow accumulation depth measurement. This information could be used during a snow storm and provide community awareness and promote safety measures during snow storms.\n\n## Consequences\n\nThere may be privacy concerns with Cyclomedia's high-resolution street imagery - not for public consumption.",
+      "format" : "Markdown",
+      "id" : "8",
+      "title" : "Cyclomedia",
+      "date" : "2023-04-25T00:00:00Z",
+      "status" : "Accepted"
+    }, {
+      "content" : "# 9. National Weather Service\n\nDate: 2023-4-25\n\n## Status\n\nAccepted\n\n## Context\n\nThe information from National Weather Service was already in place. It is San Bernardino's source for weather data.\n\n## Decision\n\nIt is readily available for San Bernardino to use. With its reliable information from a trustworthy source, it can help San Bernardino to plan ahead for snowplow routes and inform citizens on safety concerns for snowstorms.\n\n## Consequences\n\nDue to historical use, the information from the National Weather Service is already accepted by this organization. There may be other sources of weather information that could be used.\n",
+      "format" : "Markdown",
+      "id" : "9",
+      "title" : "National Weather Service",
+      "date" : "2023-04-25T00:00:00Z",
+      "status" : "Accepted"
+    }, {
+      "content" : "# 10. Azure Active Directory\n\nDate: 2023-4-25\n\n## Status\n\nAccepted\n\n## Context\n\nAzure Active Directory is a third-party identity broker for software like ArcGIS. The authentication and authorization for the enterprise system is conducted through Azure. \n\n## Decision\n\nTo prevent data breaches and cybersecurity concerns, Azure Active Directory is used to regulate the access to systems, roles, and credentials This hardened solution helps to secure the environment such as guest access. Public resources will not need to have authentication.\n\n## Consequences\n\nSan Bernardino County may hire contractors from outside the county. Having guest access will allow these contractors to access the same tools as someone who works for the county. With this hardened solution, Azure Active Directory was the best option as most government entities use this tool and it plays easier with other Microsoft tools.",
+      "format" : "Markdown",
+      "id" : "10",
+      "title" : "Azure Active Directory",
+      "date" : "2023-04-25T00:00:00Z",
+      "status" : "Accepted"
+    } ]
+  },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "Context",
+      "order" : 1,
+      "description" : "PlowPortal Context Diagram",
+      "softwareSystemId" : "1",
+      "dimensions" : {
+        "width" : 4367,
+        "height" : 3385
+      },
+      "enterpriseBoundaryVisible" : true,
+      "relationships" : [ {
+        "id" : "82"
+      }, {
+        "id" : "93"
+      }, {
+        "id" : "91"
+      }, {
+        "id" : "50"
+      }, {
+        "id" : "62",
+        "vertices" : [ {
+          "x" : 1275,
+          "y" : 2230
+        } ]
+      }, {
+        "id" : "73"
+      }, {
+        "id" : "76",
+        "vertices" : [ {
+          "x" : 3065,
+          "y" : 2240
+        } ]
+      }, {
+        "id" : "53"
+      }, {
+        "id" : "65",
+        "vertices" : [ {
+          "x" : 1413,
+          "y" : 1175
+        } ]
+      }, {
+        "id" : "85",
+        "vertices" : [ {
+          "x" : 1590,
+          "y" : 2325
+        } ]
+      }, {
+        "id" : "96"
+      }, {
+        "id" : "108"
+      }, {
+        "id" : "111"
+      }, {
+        "id" : "56",
+        "vertices" : [ {
+          "x" : 1305,
+          "y" : 2415
+        } ]
+      }, {
+        "id" : "88",
+        "vertices" : [ {
+          "x" : 1715,
+          "y" : 2400
+        } ]
+      }, {
+        "id" : "46"
+      }, {
+        "id" : "102",
+        "vertices" : [ {
+          "x" : 3030,
+          "y" : 1815
+        } ]
+      }, {
+        "id" : "99",
+        "vertices" : [ {
+          "x" : 3050,
+          "y" : 1610
+        } ]
+      }, {
+        "id" : "79",
+        "vertices" : [ {
+          "x" : 2955,
+          "y" : 2415
+        } ]
+      }, {
+        "id" : "114"
+      }, {
+        "id" : "105"
+      } ],
+      "elements" : [ {
+        "id" : "33",
+        "x" : 1618,
+        "y" : 2785
+      }, {
+        "id" : "34",
+        "x" : 2326,
+        "y" : 2785
+      }, {
+        "id" : "35",
+        "x" : 3034,
+        "y" : 2785
+      }, {
+        "id" : "36",
+        "x" : 3742,
+        "y" : 2785
+      }, {
+        "id" : "37",
+        "x" : 3717,
+        "y" : 2149
+      }, {
+        "id" : "27",
+        "x" : 200,
+        "y" : 1492
+      }, {
+        "id" : "38",
+        "x" : 1041,
+        "y" : 250
+      }, {
+        "id" : "28",
+        "x" : 200,
+        "y" : 2138
+      }, {
+        "id" : "39",
+        "x" : 3717,
+        "y" : 1516
+      }, {
+        "id" : "29",
+        "x" : 200,
+        "y" : 846
+      }, {
+        "id" : "1",
+        "x" : 1933,
+        "y" : 1600
+      }, {
+        "id" : "40",
+        "x" : 1932,
+        "y" : 250
+      }, {
+        "id" : "30",
+        "x" : 200,
+        "y" : 2785
+      }, {
+        "id" : "41",
+        "x" : 2823,
+        "y" : 250
+      }, {
+        "id" : "31",
+        "x" : 200,
+        "y" : 200
+      }, {
+        "id" : "42",
+        "x" : 3717,
+        "y" : 250
+      }, {
+        "id" : "32",
+        "x" : 910,
+        "y" : 2785
+      }, {
+        "id" : "43",
+        "x" : 3717,
+        "y" : 883
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Container",
+      "order" : 2,
+      "description" : "PlowPortal Container Diagram",
+      "softwareSystemId" : "1",
+      "dimensions" : {
+        "width" : 4165,
+        "height" : 3115
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "72"
+      }, {
+        "id" : "92"
+      }, {
+        "id" : "130"
+      }, {
+        "id" : "52"
+      }, {
+        "id" : "98",
+        "vertices" : [ {
+          "x" : 3155,
+          "y" : 1305
+        } ]
+      }, {
+        "id" : "95"
+      }, {
+        "id" : "75",
+        "vertices" : [ {
+          "x" : 3235,
+          "y" : 975
+        } ]
+      }, {
+        "id" : "90"
+      }, {
+        "id" : "45"
+      }, {
+        "id" : "110"
+      }, {
+        "id" : "113"
+      }, {
+        "id" : "69"
+      }, {
+        "id" : "132"
+      }, {
+        "id" : "49"
+      }, {
+        "id" : "61",
+        "vertices" : [ {
+          "x" : 1035,
+          "y" : 2270
+        } ]
+      }, {
+        "id" : "81"
+      }, {
+        "id" : "87",
+        "vertices" : [ {
+          "x" : 2425,
+          "y" : 755
+        } ]
+      }, {
+        "id" : "84",
+        "vertices" : [ {
+          "x" : 2635,
+          "y" : 800
+        } ]
+      }, {
+        "id" : "120",
+        "vertices" : [ {
+          "x" : 2300,
+          "y" : 1405
+        } ]
+      }, {
+        "id" : "140",
+        "vertices" : [ {
+          "x" : 2150,
+          "y" : 2190
+        } ]
+      }, {
+        "id" : "64"
+      }, {
+        "id" : "107"
+      }, {
+        "id" : "55"
+      }, {
+        "id" : "78",
+        "vertices" : [ {
+          "x" : 3215,
+          "y" : 1080
+        } ]
+      }, {
+        "id" : "124",
+        "vertices" : [ {
+          "x" : 1945,
+          "y" : 1715
+        } ]
+      }, {
+        "id" : "143",
+        "vertices" : [ {
+          "x" : 2110,
+          "y" : 1940
+        } ]
+      }, {
+        "id" : "101",
+        "vertices" : [ {
+          "x" : 3190,
+          "y" : 1210
+        } ]
+      }, {
+        "id" : "104"
+      }, {
+        "id" : "59",
+        "vertices" : [ {
+          "x" : 1080,
+          "y" : 2395
+        } ]
+      } ],
+      "elements" : [ {
+        "id" : "33",
+        "x" : 3475,
+        "y" : 165
+      }, {
+        "id" : "34",
+        "x" : 2843,
+        "y" : 165
+      }, {
+        "id" : "35",
+        "x" : 265,
+        "y" : 1845
+      }, {
+        "id" : "14",
+        "x" : 1321,
+        "y" : 890
+      }, {
+        "id" : "36",
+        "x" : 3545,
+        "y" : 840
+      }, {
+        "id" : "37",
+        "x" : 897,
+        "y" : 215
+      }, {
+        "id" : "27",
+        "x" : 1579,
+        "y" : 165
+      }, {
+        "id" : "38",
+        "x" : 3540,
+        "y" : 2570
+      }, {
+        "id" : "28",
+        "x" : 235,
+        "y" : 1317
+      }, {
+        "id" : "39",
+        "x" : 3515,
+        "y" : 1392
+      }, {
+        "id" : "29",
+        "x" : 3560,
+        "y" : 1845
+      }, {
+        "id" : "2",
+        "x" : 1321,
+        "y" : 1895
+      }, {
+        "id" : "8",
+        "x" : 2430,
+        "y" : 890
+      }, {
+        "id" : "40",
+        "x" : 2694,
+        "y" : 2570
+      }, {
+        "id" : "30",
+        "x" : 265,
+        "y" : 2520
+      }, {
+        "id" : "41",
+        "x" : 215,
+        "y" : 215
+      }, {
+        "id" : "42",
+        "x" : 210,
+        "y" : 890
+      }, {
+        "id" : "31",
+        "x" : 1901,
+        "y" : 2520
+      }, {
+        "id" : "20",
+        "x" : 2432,
+        "y" : 1895
+      }, {
+        "id" : "43",
+        "x" : 1058,
+        "y" : 2570
+      }, {
+        "id" : "32",
+        "x" : 2211,
+        "y" : 165
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Optimization",
+      "order" : 5,
+      "description" : "PlowPortal Optimization Component Diagram",
+      "dimensions" : {
+        "width" : 5259,
+        "height" : 1907
+      },
+      "containerId" : "2",
+      "externalContainerBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "70",
+        "vertices" : [ {
+          "x" : 1755,
+          "y" : 1355
+        } ]
+      }, {
+        "id" : "60"
+      }, {
+        "id" : "141"
+      }, {
+        "id" : "142",
+        "vertices" : [ {
+          "x" : 2685,
+          "y" : 330
+        } ]
+      }, {
+        "id" : "64",
+        "vertices" : [ {
+          "x" : 415,
+          "y" : 330
+        } ]
+      }, {
+        "id" : "135"
+      }, {
+        "id" : "68",
+        "vertices" : [ {
+          "x" : 1310,
+          "y" : 1235
+        } ]
+      }, {
+        "id" : "58",
+        "vertices" : [ {
+          "x" : 2859,
+          "y" : 563
+        }, {
+          "x" : 2409,
+          "y" : 563
+        } ]
+      }, {
+        "id" : "138"
+      }, {
+        "id" : "139",
+        "vertices" : [ {
+          "x" : 1425,
+          "y" : 471
+        } ]
+      }, {
+        "id" : "136"
+      }, {
+        "id" : "106"
+      }, {
+        "id" : "137"
+      } ],
+      "elements" : [ {
+        "id" : "3",
+        "x" : 909,
+        "y" : 713
+      }, {
+        "id" : "4",
+        "x" : 2409,
+        "y" : 663
+      }, {
+        "id" : "5",
+        "x" : 1659,
+        "y" : 713
+      }, {
+        "id" : "6",
+        "x" : 3160,
+        "y" : 713
+      }, {
+        "id" : "7",
+        "x" : 3909,
+        "y" : 713
+      }, {
+        "id" : "30",
+        "x" : 4659,
+        "y" : 375
+      }, {
+        "id" : "20",
+        "x" : 1665,
+        "y" : 175
+      }, {
+        "id" : "31",
+        "x" : 209,
+        "y" : 1267
+      }, {
+        "id" : "43",
+        "x" : 2366,
+        "y" : 1407
+      } ]
+    }, {
+      "key" : "Management",
+      "order" : 6,
+      "description" : "PlowPortal Management Component Diagram",
+      "dimensions" : {
+        "width" : 3416,
+        "height" : 2800
+      },
+      "containerId" : "20",
+      "externalContainerBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "94"
+      }, {
+        "id" : "153"
+      }, {
+        "id" : "63"
+      }, {
+        "id" : "152"
+      }, {
+        "id" : "151",
+        "vertices" : [ {
+          "x" : 1246,
+          "y" : 1521
+        } ]
+      }, {
+        "id" : "150",
+        "vertices" : [ {
+          "x" : 1431,
+          "y" : 1541
+        } ]
+      }, {
+        "id" : "67"
+      }, {
+        "id" : "145",
+        "vertices" : [ {
+          "x" : 871,
+          "y" : 1181
+        } ]
+      }, {
+        "id" : "66"
+      }, {
+        "id" : "146",
+        "vertices" : [ {
+          "x" : 1011,
+          "y" : 1546
+        } ]
+      }, {
+        "id" : "69"
+      }, {
+        "id" : "123"
+      }, {
+        "id" : "144",
+        "vertices" : [ {
+          "x" : 956,
+          "y" : 1296
+        } ]
+      }, {
+        "id" : "149",
+        "vertices" : [ {
+          "x" : 1856,
+          "y" : 1626
+        } ]
+      }, {
+        "id" : "147",
+        "vertices" : [ {
+          "x" : 876,
+          "y" : 1456
+        } ]
+      }, {
+        "id" : "148",
+        "vertices" : [ {
+          "x" : 1761,
+          "y" : 1391
+        } ]
+      } ],
+      "elements" : [ {
+        "id" : "22",
+        "x" : 2010,
+        "y" : 1650
+      }, {
+        "id" : "23",
+        "x" : 2010,
+        "y" : 1080
+      }, {
+        "id" : "24",
+        "x" : 220,
+        "y" : 1650
+      }, {
+        "id" : "2",
+        "x" : 2751,
+        "y" : 1080
+      }, {
+        "id" : "25",
+        "x" : 221,
+        "y" : 1080
+      }, {
+        "id" : "14",
+        "x" : 2766,
+        "y" : 1650
+      }, {
+        "id" : "26",
+        "x" : 1135,
+        "y" : 1030
+      }, {
+        "id" : "38",
+        "x" : 1110,
+        "y" : 2300
+      }, {
+        "id" : "31",
+        "x" : 1135,
+        "y" : 200
+      }, {
+        "id" : "21",
+        "x" : 1110,
+        "y" : 1650
+      } ]
+    }, {
+      "key" : "Outreach",
+      "order" : 3,
+      "description" : "PlowPortal Outreach Component Diagram",
+      "dimensions" : {
+        "width" : 3400,
+        "height" : 3047
+      },
+      "containerId" : "8",
+      "externalContainerBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "83"
+      }, {
+        "id" : "80"
+      }, {
+        "id" : "74"
+      }, {
+        "id" : "97"
+      }, {
+        "id" : "86"
+      }, {
+        "id" : "131"
+      }, {
+        "id" : "120",
+        "vertices" : [ {
+          "x" : 2179,
+          "y" : 2820
+        } ]
+      }, {
+        "id" : "134"
+      }, {
+        "id" : "100"
+      }, {
+        "id" : "77"
+      }, {
+        "id" : "124",
+        "vertices" : [ {
+          "x" : 2144,
+          "y" : 2545
+        } ]
+      }, {
+        "id" : "133"
+      }, {
+        "id" : "89"
+      }, {
+        "id" : "48"
+      }, {
+        "id" : "128"
+      }, {
+        "id" : "125"
+      }, {
+        "id" : "126",
+        "vertices" : [ {
+          "x" : 2347,
+          "y" : 1043
+        } ]
+      } ],
+      "elements" : [ {
+        "id" : "11",
+        "x" : 2729,
+        "y" : 890
+      }, {
+        "id" : "33",
+        "x" : 1894,
+        "y" : 195
+      }, {
+        "id" : "34",
+        "x" : 224,
+        "y" : 2000
+      }, {
+        "id" : "12",
+        "x" : 1023,
+        "y" : 890
+      }, {
+        "id" : "13",
+        "x" : 1424,
+        "y" : 1465
+      }, {
+        "id" : "14",
+        "x" : 1139,
+        "y" : 2530
+      }, {
+        "id" : "36",
+        "x" : 1914,
+        "y" : 2035
+      }, {
+        "id" : "39",
+        "x" : 199,
+        "y" : 890
+      }, {
+        "id" : "29",
+        "x" : 224,
+        "y" : 1415
+      }, {
+        "id" : "9",
+        "x" : 1869,
+        "y" : 890
+      }, {
+        "id" : "20",
+        "x" : 2729,
+        "y" : 2530
+      }, {
+        "id" : "32",
+        "x" : 1048,
+        "y" : 229
+      }, {
+        "id" : "10",
+        "x" : 2314,
+        "y" : 1465
+      } ]
+    }, {
+      "key" : "Operations",
+      "order" : 4,
+      "description" : "PlowPortal Operations Component Diagram",
+      "dimensions" : {
+        "width" : 4520,
+        "height" : 2580
+      },
+      "containerId" : "14",
+      "externalContainerBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "71"
+      }, {
+        "id" : "51"
+      }, {
+        "id" : "54"
+      }, {
+        "id" : "119",
+        "vertices" : [ {
+          "x" : 2200,
+          "y" : 1754
+        } ]
+      }, {
+        "id" : "118"
+      }, {
+        "id" : "129"
+      }, {
+        "id" : "109"
+      }, {
+        "id" : "122",
+        "vertices" : [ {
+          "x" : 1900,
+          "y" : 1814
+        } ]
+      }, {
+        "id" : "44"
+      }, {
+        "id" : "57"
+      }, {
+        "id" : "132"
+      }, {
+        "id" : "47"
+      }, {
+        "id" : "112"
+      }, {
+        "id" : "115"
+      }, {
+        "id" : "103"
+      }, {
+        "id" : "117"
+      }, {
+        "id" : "116"
+      } ],
+      "elements" : [ {
+        "id" : "35",
+        "x" : 910,
+        "y" : 224
+      }, {
+        "id" : "15",
+        "x" : 1980,
+        "y" : 1119
+      }, {
+        "id" : "37",
+        "x" : 3055,
+        "y" : 244
+      }, {
+        "id" : "16",
+        "x" : 3055,
+        "y" : 904
+      }, {
+        "id" : "27",
+        "x" : 3920,
+        "y" : 1164
+      }, {
+        "id" : "28",
+        "x" : 2015,
+        "y" : 199
+      }, {
+        "id" : "17",
+        "x" : 3055,
+        "y" : 1449
+      }, {
+        "id" : "18",
+        "x" : 885,
+        "y" : 1414
+      }, {
+        "id" : "19",
+        "x" : 885,
+        "y" : 922
+      }, {
+        "id" : "8",
+        "x" : 2367,
+        "y" : 2079
+      }, {
+        "id" : "30",
+        "x" : 200,
+        "y" : 1054
+      }, {
+        "id" : "41",
+        "x" : 885,
+        "y" : 2079
+      }, {
+        "id" : "20",
+        "x" : 1636,
+        "y" : 2079
+      }, {
+        "id" : "42",
+        "x" : 3055,
+        "y" : 2079
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : {
+        "logo" : "data:image/png;base64,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"
+      },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Canvas",
+          "background" : "#e4e1d1",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Software System",
+          "background" : "#bd8b13",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Container",
+          "background" : "#bd8b13",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "External Service",
+          "background" : "#54585a",
+          "color" : "#ffffff",
+          "shape" : "Component"
+        }, {
+          "tag" : "Person",
+          "background" : "#154734",
+          "color" : "#ffffff",
+          "shape" : "Person"
+        }, {
+          "tag" : "Component",
+          "background" : "#b6ccc2",
+          "color" : "#ffffff",
+          "shape" : "Component"
+        }, {
+          "tag" : "Mobile App",
+          "background" : "#b6ccc2",
+          "color" : "#ffffff",
+          "shape" : "MobileDeviceLandscape"
+        }, {
+          "tag" : "Desktop App",
+          "background" : "#b6ccc2",
+          "color" : "#ffffff",
+          "shape" : "Window"
+        }, {
+          "tag" : "Web App",
+          "background" : "#b6ccc2",
+          "color" : "#ffffff",
+          "shape" : "WebBrowser"
+        }, {
+          "tag" : "Data Store",
+          "background" : "#b6ccc2",
+          "color" : "#ffffff",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "Automation",
+          "background" : "#b6ccc2",
+          "color" : "#ffffff",
+          "shape" : "Robot"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "lastSavedView" : "Optimization"
+    }
+  }
+}

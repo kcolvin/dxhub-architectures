@@ -1,0 +1,9 @@
+# Read this:
+# https://github.com/structurizr/cli 
+#
+# Export .dsl source to .json to be published
+structurizr.sh export -workspace workspace.dsl -format json
+# List
+structurizr.sh list -workspace workspace.dsl
+# Validate source
+structurizr.sh validate -workspace workspace.dsl
