@@ -1,6 +1,6 @@
 # 4. Manual Digitization of Route Definitions
 
-Date: 2023-4-25
+Date: 2023-6-19
 
 ## Status
 
@@ -16,4 +16,4 @@ DxHub and SBC decided to document existing routes with a GIS analyst and a snowp
 
 ## Consequences
 
-Documenting routes in this manner is time consuming for the analyst and snow plow driver, taking as much as 60 minutes for each route. Eight routes were digitized for the Running Springs prototype area, taking about 8 hours total.
+Documenting routes in this manner is time consuming for the analyst and snow plow driver, taking as much as 60 minutes for each route. Eight routes were digitized for the Running Springs prototype area, taking about 8 hours total.  Documenting future routes will also require a substantial time commitment. 

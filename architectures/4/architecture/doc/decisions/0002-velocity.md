@@ -1,6 +1,6 @@
 # 2. Velocity
 
-Date: 2023-4-25
+Date: 2023-6-19
 
 ## Status
 
@@ -21,4 +21,4 @@ DxHub/San Bernardino County decided to implement ArcGIS Velocity for the first t
 
 Now that San Bernardino County has the license and abilty to utilize Velocity, future implementation of Velocity features is streamlined. County GIS personnel are familiar with its use and capabilities. 
 
-In regards to the Forward Thinking Systems (snow plow vehicle GPS feed), a token needed to access the API feed. However, the token will expire on April 18, 2024 and will be needed to updated every year. With ArcGIS Velocity's real time data, this information should not be made available to the public. Giving citizens this information can endanger snowplow drivers and create hinderances on their job.
+In regards to the Forward Thinking Systems (snowplow vehicle GPS feed), a token is needed to access the API feed. However, the token will expire on April 18, 2024 and will be needed to updated every year. With ArcGIS Velocity's real time data, this information should not be made available to the public. Giving citizens this information can endanger snowplow drivers and create hinderances on their job.
