@@ -3,8 +3,8 @@
 */
 
 workspace "San Bernardino County Snow Plow Challenge" "This is a sample architecture model of PP Software System " {
-!adrs /architecture/doc/decisions/
-!docs /architecture/doc/
+!adrs architecture/doc/decisions/
+!docs architecture/doc/
 
 
     model {
@@ -216,12 +216,12 @@ workspace "San Bernardino County Snow Plow Challenge" "This is a sample architec
                 color #ffffff
             }
             
-            element "Desktop App" {
+           /* element "Desktop App" {
                 shape Window
                 background #B6CCC2
                 color #ffffff
             }
-            
+            */
             element "Web App" {
                 shape WebBrowser
                 background #B6CCC2
