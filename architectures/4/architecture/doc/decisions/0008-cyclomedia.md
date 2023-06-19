@@ -8,12 +8,12 @@ Accepted
 
 ## Context
 
-Cyclomedia captures geospatial data which has street level imagery with the use of GPS technology. Using Cyclomedia could help with snow plow removal routes with street level imagery, measure snow depth on streets (***NOT SURE IF THIS HAD CHANGED), and utilizing historical archive of street imagery.
+Cyclomedia captures geospatial data which has street level imagery with the use of GPS technology. The georeferenced, 3D images are refered to as "GeoCycloramas". Using this technology during winter months could help with snow plow removal routes with snow-free, street level imagery exposing hidden features such as road barriers, fire hydrants, sign posts, etc.
 
 ## Decision
 
-Using Cartegraph could help with snowplow routes by taking images and overlaying it on the portal. The imagery would provide information to plan snow plow routes, condition of San Bernardino County's infrastructure assets, and snow accumulation depth measurement. This information could be used during a snow storm and provide community awareness and promote safety measures during snow storms.
+While the Cyclomedia technology is feasible for snowplow use and San Bernardino has basic functionaly enabled, it was not implemented in the current efforts. Lack of county personnel availability is the primary limited resource.
 
 ## Consequences
 
-There may be privacy concerns with Cyclomedia's high-resolution street imagery - not for public consumption.
+Unrealized functionality with existing systems is the primary consequence. Additinoally, there may be privacy concerns with Cyclomedia's high-resolution street imagery - not for public consumption.
