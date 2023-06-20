@@ -1,6 +1,6 @@
 # 11. See Click Fix
 
-Date: 2023-4-25
+Date: 2023-6-20
 
 ## Status
 
@@ -12,7 +12,7 @@ Instead of using a web form with SB Access Online or call 909-884-4056, SeeClick
 
 ## Decision
 
-To empower citizens, SBC SeeClickFix is expanded with 'Conversations'. It prevents web forms and the influx of phone calls, allowing public works employees to dedicate their time to other tasks.
+To empower citizens, SBC SeeClickFix is expanded with 'Conversations'. It reduces web forms and the influx of phone calls, allowing public works employees to dedicate their time to other tasks.
 
 ## Consequences
 

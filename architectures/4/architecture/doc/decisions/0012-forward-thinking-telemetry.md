@@ -1,6 +1,6 @@
 # 12. Forward Thinking Telemetry
 
-Date: 2023-4-25
+Date: 2023-6-20
 
 ## Status
 
@@ -12,8 +12,8 @@ Forward Thinking: Intellihub is a real-time fleet management software where you 
 
 ## Decision
 
-The telemetry being used tracks equipment instead of the snowplow drivers.
+The telemetry being used to automatically track equipment instead of manual entry by snowplow drivers.
 
 ## Consequences
 
-Personal data concerns may lead to push back for snowplow drivers. As a public asset for a union, they may be upset that the equipment is tracked despite being a county asset. Although there is a public facing component regarding snowplow work, there must be a time delay regarding the publishing of snowplow route information to keep drivers safe.
+Real-time location concerns may lead to push back for snowplow drivers. Although there is a public facing component regarding snowplow work, there must be a time delay regarding the publishing of snowplow route information to keep drivers safe.
